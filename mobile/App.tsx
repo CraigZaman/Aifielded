@@ -21,7 +21,7 @@ import type { AndroidWebViewProps, IOSWebViewProps } from 'react-native-webview/
 // props into `never`; the runtime component is cross-platform.
 const NativeWebView = WebView as unknown as ComponentType<IOSWebViewProps & Pick<AndroidWebViewProps, 'thirdPartyCookiesEnabled' | 'domStorageEnabled'> & RefAttributes<WebView>>;
 
-const APP_ORIGIN = 'https://app.fielded.ai';
+const APP_ORIGIN = process.env.EXPO_PUBLIC_API_ORIGIN?.trim().replace(/\/$/, '') || 'https://app.fielded.ai';
 const WORKSPACE_URL = `${APP_ORIGIN}/app`;
 const RootView = Platform.OS === 'ios' ? SafeAreaView : View;
 
