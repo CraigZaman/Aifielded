@@ -41,8 +41,6 @@ yarn-error.*
 *.tsbuildinfo
 
 # generated native folders
-/ios
-/android
 
 # signed local device build (contains an embedded development profile)
 /.local-build

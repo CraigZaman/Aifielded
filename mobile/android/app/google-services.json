@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "668253397029",
+    "project_id": "aifieldedmobile",
+    "storage_bucket": "aifieldedmobile.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:668253397029:android:85addcb4b52c8531935fcc",
+        "android_client_info": {
+          "package_name": "ai.fielded.mobile"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQRg18gdEJKCfuXFCMdGRyS_n2lJCxHZw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
