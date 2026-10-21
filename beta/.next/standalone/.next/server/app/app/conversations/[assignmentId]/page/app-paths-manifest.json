@@ -1,0 +1,3 @@
+{
+  "/app/conversations/[assignmentId]/page": "app/app/conversations/[assignmentId]/page.js"
+}

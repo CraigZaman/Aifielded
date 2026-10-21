@@ -1,0 +1,3 @@
+{
+  "/api/missions/[id]/synthesise/route": "app/api/missions/[id]/synthesise/route.js"
+}

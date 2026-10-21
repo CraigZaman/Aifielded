@@ -1,0 +1,16 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "buildCommand": "pnpm build",
+  "installCommand": "pnpm install --frozen-lockfile",
+  "outputDirectory": "dist/client",
+  "cleanUrls": true,
+  "redirects": [{"source":"/admin","destination":"https://app.fielded.ai/ops/commercial","permanent":false}],
+  "headers": [
+    {"source": "/(.*)", "headers": [
+      {"key": "X-Content-Type-Options", "value": "nosniff"},
+      {"key": "Referrer-Policy", "value": "strict-origin-when-cross-origin"},
+      {"key": "X-Frame-Options", "value": "DENY"}
+    ]}
+  ]
+}

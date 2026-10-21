@@ -1,0 +1,2351 @@
+{
+  "exportedAt": "2026-09-07T20:56:31.260Z",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 11609,
+      "sha256": "0cd0cda8d3b95faf0a2f2af95dc1c1db3df2da9ae13019e901152ce9568ac551",
+      "origin": "New handover documentation"
+    },
+    {
+      "path": "beta/.env.example",
+      "bytes": 458,
+      "sha256": "442fe9459f4c4f21433005ca5c098a7634a5f73660614179daee2de787ea90db",
+      "origin": "New handover documentation"
+    },
+    {
+      "path": "beta/.gitignore",
+      "bytes": 14,
+      "sha256": "6fe16e5e5dad9408c6a9082604c816d8067641ae1b5e59aceb90eb51c1088c63",
+      "origin": "/private/tmp/fielded-beta-billing/.gitignore"
+    },
+    {
+      "path": "beta/.vercelignore",
+      "bytes": 85,
+      "sha256": "cf35c38f6ad29a115fd3686554efe99d7b5b19f2cc6284f25d53ec2bd1db8eec",
+      "origin": "/private/tmp/fielded-beta-billing/.vercelignore"
+    },
+    {
+      "path": "beta/eslint.config.mjs",
+      "bytes": 322,
+      "sha256": "a4bcbb1b674dd9f68e21f153796e15aaae35e26c7bd4eba2289d17e507493321",
+      "origin": "/private/tmp/fielded-beta-billing/eslint.config.mjs"
+    },
+    {
+      "path": "beta/next-env.d.ts",
+      "bytes": 288,
+      "sha256": "1862ac4bbbc5192d4bf562161df66ea547ed3e67173100656ab606ae9797db2b",
+      "origin": "/private/tmp/fielded-beta-billing/next-env.d.ts"
+    },
+    {
+      "path": "beta/next.config.ts",
+      "bytes": 210,
+      "sha256": "1906d1943e9f53ee011ad12cf5bfdeb0cd9269d60b1484d7c0b1ec43a24f5df6",
+      "origin": "/private/tmp/fielded-beta-billing/next.config.ts"
+    },
+    {
+      "path": "beta/package.json",
+      "bytes": 768,
+      "sha256": "046cf80bee5a2ec2b8f4aa810b5922e6c9dd9888f0babbf8d99f61fca871a917",
+      "origin": "/private/tmp/fielded-beta-billing/package.json"
+    },
+    {
+      "path": "beta/pnpm-lock.yaml",
+      "bytes": 142125,
+      "sha256": "ea395bba493cfc2b21edcb437f3ae51cec18b92d0daea9b6f376db9a8a81332a",
+      "origin": "/private/tmp/fielded-beta-billing/pnpm-lock.yaml"
+    },
+    {
+      "path": "beta/pnpm-workspace.yaml",
+      "bytes": 51,
+      "sha256": "57864d9fdaf79edba655b7b38c0d0f6716903cf6049144304e83422483376db2",
+      "origin": "/private/tmp/fielded-beta-billing/pnpm-workspace.yaml"
+    },
+    {
+      "path": "beta/public/fielded-logo.png",
+      "bytes": 21325,
+      "sha256": "003c03cded9cc8f54267c0e410339ba71d903c3ee3e3f465ef3f18a464f00074",
+      "origin": "/private/tmp/fielded-beta-billing/public/fielded-logo.png"
+    },
+    {
+      "path": "beta/src/app/(auth)/actions.ts",
+      "bytes": 13619,
+      "sha256": "f77b41ac7b255366027babcb731187c70ab175d83b4f5ca8a2684cd495e97c6d",
+      "origin": "/private/tmp/fielded-beta-billing/src/app/(auth)/actions.ts"
+    },
+    {
+      "path": "beta/src/app/(auth)/check-email/page.tsx",
+      "bytes": 1008,
+      "sha256": "1d2ee1b40a2f8797a051ef3c10d534d3d7690281c8d8dde51549eb3a7a34f0d5",
+      "origin": "/private/tmp/fielded-beta-billing/src/app/(auth)/check-email/page.tsx"
+    },
+    {
+      "path": "beta/src/app/(auth)/sign-in/page.tsx",
+      "bytes": 1656,
+      "sha256": "8449d37436a5c026f358a22ceed5b021fb399813266baeda94a0003d0b0c99ce",
+      "origin": "/private/tmp/fielded-beta-billing/src/app/(auth)/sign-in/page.tsx"
+    },
+    {
+      "path": "beta/src/app/(auth)/sign-up/page.tsx",
+      "bytes": 4644,
+      "sha256": "64c392638f9de28ae595e742b2004498e6da2abd4c8b0b4956fccd47ccd1ba57",
+      "origin": "/private/tmp/fielded-beta-billing/src/app/(auth)/sign-up/page.tsx"
+    },
+    {
+      "path": "beta/src/app/api/ai/ask/route.ts",
+      "bytes": 5351,
+      "sha256": "0eb02f330e73fd61f03e7c6dbe8455b9d2fdd7b683a2cb329c8b6063f682733d",
+      "origin": "/private/tmp/fielded-beta-billing/src/app/api/ai/ask/route.ts"
+    },
+    {
+      "path": "beta/src/app/api/ai/chat/route.ts",
+      "bytes": 4736,
+      "sha256": "18dc1a2c705eca4355342d6a85e31c4cdb601f32198dbb269dd81a0dc2bedb07",
+      "origin": "/private/tmp/fielded-beta-billing/src/app/api/ai/chat/route.ts"
+    },
+    {
+      "path": "beta/src/app/api/ai/check/route.ts",
+      "bytes": 2170,
+      "sha256": "03205ba95757fe399fd1ebcddeb8002a62059ed381970a54d9f7699151339757",
+      "origin": "/private/tmp/fielded-beta-billing/src/app/api/ai/check/route.ts"
+    },
+    {
+      "path": "beta/src/app/api/communications/check/route.ts",
+      "bytes": 1541,
+      "sha256": "9276532ff7c552b66a8361a743362c9be64e3a9d8218f9b8405593207efe5495",
+      "origin": "/private/tmp/fielded-beta-billing/src/app/api/communications/check/route.ts"
+    },
+    {
+      "path": "beta/src/app/api/communications/draft/route.ts",
+      "bytes": 3803,
+      "sha256": "6fd9c6e1ce0b4cc1b88c4801e2be61adb1514e9e9eff092cadaa7eabf4d5307c",
+      "origin": "/private/tmp/fielded-beta-billing/src/app/api/communications/draft/route.ts"
+    },
+    {
+      "path": "beta/src/app/api/communications/route.ts",
+      "bytes": 2390,
+      "sha256": "fb3090d608f43276545c058f53a125ec50785b2ff7047a87279f20e8573988b7",
+      "origin": "/private/tmp/fielded-beta-billing/src/app/api/communications/route.ts"
+    },
+    {
+      "path": "beta/src/app/api/company/profile-draft/route.ts",
+      "bytes": 2243,
+      "sha256": "b84916a1907d0b983d4c2167b1071137988ee7b1050ac9c76b2f1f66d60aa007",
+      "origin": "/private/tmp/fielded-beta-billing/src/app/api/company/profile-draft/route.ts"
+    },
+    {
+      "path": "beta/src/app/api/company/structure-draft/route.ts",
+      "bytes": 1780,
+      "sha256": "511eab59984c28f8ed829b0bf27ce3acd14bf1508b8acc8fe6e3a32cc45d3eb4",
+      "origin": "/private/tmp/fielded-beta-billing/src/app/api/company/structure-draft/route.ts"
+    },
+    {
+      "path": "beta/src/app/api/concerns/files/[id]/route.ts",
+      "bytes": 1012,
+      "sha256": "41b40ed49f1850816f3510ff313e3d73df0aed33a03c2cd9efa739e83a93d382",
+      "origin": "/private/tmp/fielded-beta-billing/src/app/api/concerns/files/[id]/route.ts"
+    },
+    {
+      "path": "beta/src/app/api/concerns/files/route.ts",
+      "bytes": 2187,
+      "sha256": "c87cb2c8ceb95b188e47970d617d551f567b71c69bc291514e829f9cdf37ed0e",
+      "origin": "/private/tmp/fielded-beta-billing/src/app/api/concerns/files/route.ts"
+    },
+    {
+      "path": "beta/src/app/api/context-extract/route.ts",
+      "bytes": 1969,
+      "sha256": "d3373ed8f007016e46e3cb43064b824ade006bc1b82abf7d07688c3c663e90f0",
+      "origin": "/private/tmp/fielded-beta-billing/src/app/api/context-extract/route.ts"
+    },
+    {
+      "path": "beta/src/app/api/conversations/[assignmentId]/approve/route.ts",
+      "bytes": 1351,
+      "sha256": "fe74d27d3b71197b6632a097f3aef997dfc0d447cb1c0873423eb20fcf5d67c9",
+      "origin": "/private/tmp/fielded-beta-billing/src/app/api/conversations/[assignmentId]/approve/route.ts"
+    },
+    {
+      "path": "beta/src/app/api/conversations/[assignmentId]/complete/route.ts",
+      "bytes": 4698,
+      "sha256": "a1ae4b43a9c643b8856b7f397639bb20af1170f47d66476703a29d758f638bf3",
+      "origin": "/private/tmp/fielded-beta-billing/src/app/api/conversations/[assignmentId]/complete/route.ts"
+    },
+    {
+      "path": "beta/src/app/api/cron/mission-analysis/route.ts",
+      "bytes": 1361,
+      "sha256": "67a1ed7d26af873f40717f6ff9bc171b6c67f4091acab68fc3c97eb1a00bacd9",
+      "origin": "/private/tmp/fielded-beta-billing/src/app/api/cron/mission-analysis/route.ts"
+    },
+    {
+      "path": "beta/src/app/api/demo-access/route.ts",
+      "bytes": 1821,
+      "sha256": "75d4766bc2c4a5cc782ff9337b1774f06df547fce17ee3fc53c9ce2f3e0195a3",
+      "origin": "/private/tmp/fielded-beta-billing/src/app/api/demo-access/route.ts"
+    },
+    {
+      "path": "beta/src/app/api/dialogue/route.ts",
+      "bytes": 5228,
+      "sha256": "7e6b2fc4b12ae24bc68e165473e944243470403dbb6f0ea85d397a1e4cfba309",
+      "origin": "/private/tmp/fielded-beta-billing/src/app/api/dialogue/route.ts"
+    },
+    {
+      "path": "beta/src/app/api/integrations/google/callback/route.ts",
+      "bytes": 3046,
+      "sha256": "8b78cb9e9f9b4d70afb563663f2c7a93e2cf7fbc7b796ca5ffa7605aa26b9386",
+      "origin": "/private/tmp/fielded-beta-billing/src/app/api/integrations/google/callback/route.ts"
+    },
+    {
+      "path": "beta/src/app/api/integrations/google/start/route.ts",
+      "bytes": 1152,
+      "sha256": "581d43a9483ba9236b736c8a0a7e9517b7ed150037cbb356e79b64512c953b63",
+      "origin": "/private/tmp/fielded-beta-billing/src/app/api/integrations/google/start/route.ts"
+    },
+    {
+      "path": "beta/src/app/api/integrations/slack/callback/route.ts",
+      "bytes": 2377,
+      "sha256": "6289d68d133df87d08587c433ee9673e33deae59fe02d465e99619a8163e0f65",
+      "origin": "/private/tmp/fielded-beta-billing/src/app/api/integrations/slack/callback/route.ts"
+    },
+    {
+      "path": "beta/src/app/api/integrations/slack/start/route.ts",
+      "bytes": 1052,
+      "sha256": "ec73fabb67cf83145ccfa53272dd6f81b7f5bd0ab9d4d5492cf39823c4bb5a5e",
+      "origin": "/private/tmp/fielded-beta-billing/src/app/api/integrations/slack/start/route.ts"
+    },
+    {
+      "path": "beta/src/app/api/integrations/sources/route.ts",
+      "bytes": 3845,
+      "sha256": "d3cfb4cc3c2c75ee0bb6dc8c776829f769b1e1ce5e436cdcc02a9a4d1de5964b",
+      "origin": "/private/tmp/fielded-beta-billing/src/app/api/integrations/sources/route.ts"
+    },
+    {
+      "path": "beta/src/app/api/integrations/sync/route.ts",
+      "bytes": 5707,
+      "sha256": "9b1bf9190783deeae93e5a0394163eb009a6daac378289da69494f3d4d8d3732",
+      "origin": "/private/tmp/fielded-beta-billing/src/app/api/integrations/sync/route.ts"
+    },
+    {
+      "path": "beta/src/app/api/missions/[id]/synthesise/route.ts",
+      "bytes": 2404,
+      "sha256": "4005359975c3a27252898423e4cfd4edc636e01629208a024a03f1bcd92852f4",
+      "origin": "/private/tmp/fielded-beta-billing/src/app/api/missions/[id]/synthesise/route.ts"
+    },
+    {
+      "path": "beta/src/app/api/uploads/route.ts",
+      "bytes": 4271,
+      "sha256": "3dbb139120fd3ef1a9dfef119fdadab28fd54856e01388e0c44603eca3cc671f",
+      "origin": "/private/tmp/fielded-beta-billing/src/app/api/uploads/route.ts"
+    },
+    {
+      "path": "beta/src/app/app/actions.ts",
+      "bytes": 17624,
+      "sha256": "7ee42fb0eaf1028dc96932b92858f29fd83097bc17337fc9a0cbaa7511c14207",
+      "origin": "/private/tmp/fielded-beta-billing/src/app/app/actions.ts"
+    },
+    {
+      "path": "beta/src/app/app/communications/[id]/page.tsx",
+      "bytes": 6024,
+      "sha256": "585a6936fa56612534a138f7dced8796bbbdac3127d3f5953832240c6a0e5609",
+      "origin": "/private/tmp/fielded-beta-billing/src/app/app/communications/[id]/page.tsx"
+    },
+    {
+      "path": "beta/src/app/app/communications/new/page.tsx",
+      "bytes": 1172,
+      "sha256": "ef11b53db3dbc185e339deee0f6b77eeeeb81f35b528c6d0e892fd9c1fd86fbf",
+      "origin": "/private/tmp/fielded-beta-billing/src/app/app/communications/new/page.tsx"
+    },
+    {
+      "path": "beta/src/app/app/communications/page.tsx",
+      "bytes": 1793,
+      "sha256": "9e5808a3bafc8f1309f327aaaf581fd67fb50623044d57db94d7ab80fb70547d",
+      "origin": "/private/tmp/fielded-beta-billing/src/app/app/communications/page.tsx"
+    },
+    {
+      "path": "beta/src/app/app/communications/respond/[assignmentId]/page.tsx",
+      "bytes": 2254,
+      "sha256": "b8436b99f75de367442b2ecc94618d72730fede214f8ed02017b5b282b83e1e9",
+      "origin": "/private/tmp/fielded-beta-billing/src/app/app/communications/respond/[assignmentId]/page.tsx"
+    },
+    {
+      "path": "beta/src/app/app/company/actions.ts",
+      "bytes": 6852,
+      "sha256": "4d4607671789bb3f35fd176a165d9f0e226459e3100e97d616df294b7a68dc45",
+      "origin": "/private/tmp/fielded-beta-billing/src/app/app/company/actions.ts"
+    },
+    {
+      "path": "beta/src/app/app/company/page.tsx",
+      "bytes": 9536,
+      "sha256": "13c0d4a1d6972241daeb24a30c5b12953fa3e00dcbdfc493429512b565c057af",
+      "origin": "/private/tmp/fielded-beta-billing/src/app/app/company/page.tsx"
+    },
+    {
+      "path": "beta/src/app/app/company/source-actions.ts",
+      "bytes": 2801,
+      "sha256": "283e12454bd78602830833ea20fe21ca21ee2f68d1df430cd8a2dab3e25dd80a",
+      "origin": "/private/tmp/fielded-beta-billing/src/app/app/company/source-actions.ts"
+    },
+    {
+      "path": "beta/src/app/app/concerns/actions.ts",
+      "bytes": 2963,
+      "sha256": "eee5b7a9d65a6d287cc3a36eba7a4374bc1854cd766f65e047cea9a109a2a51f",
+      "origin": "/private/tmp/fielded-beta-billing/src/app/app/concerns/actions.ts"
+    },
+    {
+      "path": "beta/src/app/app/concerns/page.tsx",
+      "bytes": 3755,
+      "sha256": "573c8d426af25d0f78ad9d79c147f45cad895b90ac7a21b8d567a47d4c82f524",
+      "origin": "/private/tmp/fielded-beta-billing/src/app/app/concerns/page.tsx"
+    },
+    {
+      "path": "beta/src/app/app/conversations/[assignmentId]/page.tsx",
+      "bytes": 6535,
+      "sha256": "b0eecfbdb22574bda13b884983ce2335da9ce553f5645a0f0d9d2826451fd5c8",
+      "origin": "/private/tmp/fielded-beta-billing/src/app/app/conversations/[assignmentId]/page.tsx"
+    },
+    {
+      "path": "beta/src/app/app/conversations/page.tsx",
+      "bytes": 1530,
+      "sha256": "961c80429e1dd56037c97564461ed353997bf24726836fc643f4e94efb8adb98",
+      "origin": "/private/tmp/fielded-beta-billing/src/app/app/conversations/page.tsx"
+    },
+    {
+      "path": "beta/src/app/app/follow-ups/page.tsx",
+      "bytes": 6737,
+      "sha256": "6b5147fe570d4d75ab147a2270f0b354ef26753f7a14a9b9d44cbd13e0f067d8",
+      "origin": "/private/tmp/fielded-beta-billing/src/app/app/follow-ups/page.tsx"
+    },
+    {
+      "path": "beta/src/app/app/intelligence/page.tsx",
+      "bytes": 5265,
+      "sha256": "233b00546f189d12e5bffdce810b87ae935c4fb4c5a37a27e8abbca6b28eac2b",
+      "origin": "/private/tmp/fielded-beta-billing/src/app/app/intelligence/page.tsx"
+    },
+    {
+      "path": "beta/src/app/app/investigations/actions.ts",
+      "bytes": 4301,
+      "sha256": "a4196e17ad223a42144dddfda7f3d947f940f1d9da09c8d6f88e1a5abf2b6772",
+      "origin": "/private/tmp/fielded-beta-billing/src/app/app/investigations/actions.ts"
+    },
+    {
+      "path": "beta/src/app/app/investigations/page.tsx",
+      "bytes": 4210,
+      "sha256": "74f9585757d0f4a3dc0b0af6debeffa595ba276695ef5714d506859e41f9ab5e",
+      "origin": "/private/tmp/fielded-beta-billing/src/app/app/investigations/page.tsx"
+    },
+    {
+      "path": "beta/src/app/app/layout.tsx",
+      "bytes": 1799,
+      "sha256": "dfb5d28f107185523d271c3f27246d48b551767fa7c7a97b0d4b3ce3fbae84bb",
+      "origin": "/private/tmp/fielded-beta-billing/src/app/app/layout.tsx"
+    },
+    {
+      "path": "beta/src/app/app/missions/[id]/evidence/[evidenceId]/page.tsx",
+      "bytes": 3620,
+      "sha256": "b0b4d6ffc4cdb53819db7aba27ab631cb24f3f0901ff2514e7dcc6224321b8a1",
+      "origin": "/private/tmp/fielded-beta-billing/src/app/app/missions/[id]/evidence/[evidenceId]/page.tsx"
+    },
+    {
+      "path": "beta/src/app/app/missions/[id]/page.tsx",
+      "bytes": 16379,
+      "sha256": "9f70bc2e3b127716b2794754f7fb98ce968d07467215c6e22a42d79fa333b98e",
+      "origin": "/private/tmp/fielded-beta-billing/src/app/app/missions/[id]/page.tsx"
+    },
+    {
+      "path": "beta/src/app/app/missions/new/page.tsx",
+      "bytes": 1773,
+      "sha256": "8d19777d4930b530789c507af8826283896a973410f5638c081a37b95aeb1869",
+      "origin": "/private/tmp/fielded-beta-billing/src/app/app/missions/new/page.tsx"
+    },
+    {
+      "path": "beta/src/app/app/missions/page.tsx",
+      "bytes": 1595,
+      "sha256": "1aa2b7f9c9158ad3e01c974fda79b7861bba2bb6f03d75f788d755d60c14a604",
+      "origin": "/private/tmp/fielded-beta-billing/src/app/app/missions/page.tsx"
+    },
+    {
+      "path": "beta/src/app/app/my-day/page.tsx",
+      "bytes": 1017,
+      "sha256": "68cab0db78b3e8240cfbc5373ab53dc7772b03eefc8cf84d31c4bc32a7b0d1b9",
+      "origin": "/private/tmp/fielded-beta-billing/src/app/app/my-day/page.tsx"
+    },
+    {
+      "path": "beta/src/app/app/page.tsx",
+      "bytes": 5188,
+      "sha256": "293a19fd11c1b4fb9e119f9192a23e4862afd51d00aac2801efc973134d89f02",
+      "origin": "/private/tmp/fielded-beta-billing/src/app/app/page.tsx"
+    },
+    {
+      "path": "beta/src/app/app/people/page.tsx",
+      "bytes": 1148,
+      "sha256": "d4eee010892ccd194f3ef1e7560e3b9eba3e248ef258fe59d4a0f3fcd91c4168",
+      "origin": "/private/tmp/fielded-beta-billing/src/app/app/people/page.tsx"
+    },
+    {
+      "path": "beta/src/app/app/people/structure-actions.ts",
+      "bytes": 3638,
+      "sha256": "6169d5a857230aec407f35934c935ff2c989047b76a1c2f77997ff265766143d",
+      "origin": "/private/tmp/fielded-beta-billing/src/app/app/people/structure-actions.ts"
+    },
+    {
+      "path": "beta/src/app/app/profile/actions.ts",
+      "bytes": 3244,
+      "sha256": "5cd455fc0bb99573ded56e0bf6030cdc4981b43b780225ff16e39051de34a59e",
+      "origin": "/private/tmp/fielded-beta-billing/src/app/app/profile/actions.ts"
+    },
+    {
+      "path": "beta/src/app/app/profile/page.tsx",
+      "bytes": 2656,
+      "sha256": "03f107ac511e1bcdbfadb29134b4d2e73d73b1f0ed1c397f2f14ca72efda73b3",
+      "origin": "/private/tmp/fielded-beta-billing/src/app/app/profile/page.tsx"
+    },
+    {
+      "path": "beta/src/app/app/publishing/[id]/page.tsx",
+      "bytes": 4211,
+      "sha256": "7ecab4484aafcd0706c3ab7b03a967224985abb850128eff5e6b9f92b5242978",
+      "origin": "/private/tmp/fielded-beta-billing/src/app/app/publishing/[id]/page.tsx"
+    },
+    {
+      "path": "beta/src/app/app/publishing/actions.ts",
+      "bytes": 4102,
+      "sha256": "165c77cc6d27ed0459d6fb68fb43b78c8154bc8e9ae946d157e21ece6245d381",
+      "origin": "/private/tmp/fielded-beta-billing/src/app/app/publishing/actions.ts"
+    },
+    {
+      "path": "beta/src/app/app/publishing/page.tsx",
+      "bytes": 3891,
+      "sha256": "3f03a1dcd96d087dec22749809c6f03d87f05ec7436d5b2f9fa0401c473af524",
+      "origin": "/private/tmp/fielded-beta-billing/src/app/app/publishing/page.tsx"
+    },
+    {
+      "path": "beta/src/app/app/settings/actions.ts",
+      "bytes": 1142,
+      "sha256": "9335cb373d113f817983716026595e97b3118b4070f1484801a05030e73f0260",
+      "origin": "/private/tmp/fielded-beta-billing/src/app/app/settings/actions.ts"
+    },
+    {
+      "path": "beta/src/app/app/settings/integrations/page.tsx",
+      "bytes": 2119,
+      "sha256": "fdb70b73e9420b327dc20102850909c7f3a7af6e20df6a88f335df5dad3e7081",
+      "origin": "/private/tmp/fielded-beta-billing/src/app/app/settings/integrations/page.tsx"
+    },
+    {
+      "path": "beta/src/app/app/settings/page.tsx",
+      "bytes": 2489,
+      "sha256": "3ede4a58cb7277f615d498574fe7b856677f869ed9d1f2db4a0b4fa5d8e3901b",
+      "origin": "/private/tmp/fielded-beta-billing/src/app/app/settings/page.tsx"
+    },
+    {
+      "path": "beta/src/app/app/suggestions/actions.ts",
+      "bytes": 2905,
+      "sha256": "db79589392944ffbdafda3f5a9db855a2c7c9b737d68e5f76df03fd7538b783d",
+      "origin": "/private/tmp/fielded-beta-billing/src/app/app/suggestions/actions.ts"
+    },
+    {
+      "path": "beta/src/app/app/suggestions/page.tsx",
+      "bytes": 3576,
+      "sha256": "d2a654a27a5e062a4ad24d3e9368d7c8fc5f92ceaec8ce2e49d86baee95191e3",
+      "origin": "/private/tmp/fielded-beta-billing/src/app/app/suggestions/page.tsx"
+    },
+    {
+      "path": "beta/src/app/app/updates/page.tsx",
+      "bytes": 1655,
+      "sha256": "1331f6954253ab23578a8b446b2597f9217e00b999b906cc45c9d7f47dfeb926",
+      "origin": "/private/tmp/fielded-beta-billing/src/app/app/updates/page.tsx"
+    },
+    {
+      "path": "beta/src/app/auth/callback/route.ts",
+      "bytes": 668,
+      "sha256": "2a578fffbd88abfdf3669a3b331e09c3b411ebd9ec54e6d49fe43e9974e3f714",
+      "origin": "/private/tmp/fielded-beta-billing/src/app/auth/callback/route.ts"
+    },
+    {
+      "path": "beta/src/app/auth/confirm/page.tsx",
+      "bytes": 2035,
+      "sha256": "dc7c39eae70258f7b3a63de1278e4fc61fb0738e5f7932d827b38f2be1c9a1f3",
+      "origin": "/private/tmp/fielded-beta-billing/src/app/auth/confirm/page.tsx"
+    },
+    {
+      "path": "beta/src/app/billing/actions.ts",
+      "bytes": 1786,
+      "sha256": "bc230b9bdb6dde4c5c89ed35ffa7ff1c105fd359f29e533a8f868b9d959960dc",
+      "origin": "/private/tmp/fielded-beta-billing/src/app/billing/actions.ts"
+    },
+    {
+      "path": "beta/src/app/billing/page.tsx",
+      "bytes": 3508,
+      "sha256": "63027d31c88fc113576c38bc830eb85344a08bce7be3fca290420c3925761920",
+      "origin": "/private/tmp/fielded-beta-billing/src/app/billing/page.tsx"
+    },
+    {
+      "path": "beta/src/app/commercial.css",
+      "bytes": 3423,
+      "sha256": "078efd2a657b669e13a256ec8d05535f160d419fc1c4f669522bfcbe94bb8345",
+      "origin": "/private/tmp/fielded-beta-billing/src/app/commercial.css"
+    },
+    {
+      "path": "beta/src/app/company.css",
+      "bytes": 6965,
+      "sha256": "25216f4629cf22db8de0869ae2e017bc9fc084b054fb0c0c810fb2e12ba70a72",
+      "origin": "/private/tmp/fielded-beta-billing/src/app/company.css"
+    },
+    {
+      "path": "beta/src/app/error.tsx",
+      "bytes": 631,
+      "sha256": "53807b0d9420d3e0515fa99fcb4feae80e8bf6ac32d7d900d3e80251472eb8f0",
+      "origin": "/private/tmp/fielded-beta-billing/src/app/error.tsx"
+    },
+    {
+      "path": "beta/src/app/globals 2.css",
+      "bytes": 25959,
+      "sha256": "a1f29b0a8ae419121ecb99d39071b90a011af62a931da6426742cac266891d38",
+      "origin": "/private/tmp/fielded-beta-billing/src/app/globals 2.css"
+    },
+    {
+      "path": "beta/src/app/globals.css",
+      "bytes": 35065,
+      "sha256": "4c9e74f3dbd048507a4d1a59427a11136af257953412e16c05bccb7f27fa6813",
+      "origin": "/private/tmp/fielded-beta-billing/src/app/globals.css"
+    },
+    {
+      "path": "beta/src/app/join/[token]/page.tsx",
+      "bytes": 5529,
+      "sha256": "b4262c08c0a1a66614dd002754d831b9cc4f6d2551f0b2cf3656078a49ed36fb",
+      "origin": "/private/tmp/fielded-beta-billing/src/app/join/[token]/page.tsx"
+    },
+    {
+      "path": "beta/src/app/layout.tsx",
+      "bytes": 796,
+      "sha256": "015d85c00e82a1f594a0cb2b8d9ea22ff42d5332f4ac678da023169b4a317f39",
+      "origin": "/private/tmp/fielded-beta-billing/src/app/layout.tsx"
+    },
+    {
+      "path": "beta/src/app/not-found.tsx",
+      "bytes": 469,
+      "sha256": "198b18a062e9830cd3418b1489c4d49cee199433af040a2209e338ef0da43e8a",
+      "origin": "/private/tmp/fielded-beta-billing/src/app/not-found.tsx"
+    },
+    {
+      "path": "beta/src/app/onboarding/page.tsx",
+      "bytes": 6960,
+      "sha256": "c2fffe3d7ff31eacf842cbaa8796412ea239a42866b3de7223e34a224c0ad381",
+      "origin": "/private/tmp/fielded-beta-billing/src/app/onboarding/page.tsx"
+    },
+    {
+      "path": "beta/src/app/ops/access/actions.ts",
+      "bytes": 378,
+      "sha256": "4f8719bbecf7d29f383d4ba363ca0ee29903004d12c95b4bcd45c9656636b11d",
+      "origin": "/private/tmp/fielded-beta-billing/src/app/ops/access/actions.ts"
+    },
+    {
+      "path": "beta/src/app/ops/access/page.tsx",
+      "bytes": 1567,
+      "sha256": "5711e5865ef0e220c0797f66147a3ab4e59970c1d0406d7380f7503a87c769ce",
+      "origin": "/private/tmp/fielded-beta-billing/src/app/ops/access/page.tsx"
+    },
+    {
+      "path": "beta/src/app/ops/actions.ts",
+      "bytes": 6315,
+      "sha256": "e07a888ed5888fa7b7df436182af43203f93f214c5a973b42f454ee6f32236fc",
+      "origin": "/private/tmp/fielded-beta-billing/src/app/ops/actions.ts"
+    },
+    {
+      "path": "beta/src/app/ops/commercial/actions.ts",
+      "bytes": 1893,
+      "sha256": "bcf867dc10adf9f1a5eda0e43b69c40de4bdd859a8ce848280303178c4cbb5cc",
+      "origin": "/private/tmp/fielded-beta-billing/src/app/ops/commercial/actions.ts"
+    },
+    {
+      "path": "beta/src/app/ops/commercial/page.tsx",
+      "bytes": 2377,
+      "sha256": "c2afec996ed27c37ec11675b3b66b31ca916a79a9e4577e70ec74c5ce06c4fb4",
+      "origin": "/private/tmp/fielded-beta-billing/src/app/ops/commercial/page.tsx"
+    },
+    {
+      "path": "beta/src/app/ops/page.tsx",
+      "bytes": 7601,
+      "sha256": "aa583429e286952cbe20bba8ee48fd016bf9643ff89a8c938a39be4cc2b46dc7",
+      "origin": "/private/tmp/fielded-beta-billing/src/app/ops/page.tsx"
+    },
+    {
+      "path": "beta/src/app/page.tsx",
+      "bytes": 3041,
+      "sha256": "5c6281a3bb96c1a6b8d764e4227ff1294150966c7383b6b115c6ef3fa71ac152",
+      "origin": "/private/tmp/fielded-beta-billing/src/app/page.tsx"
+    },
+    {
+      "path": "beta/src/app/policies.css",
+      "bytes": 2238,
+      "sha256": "a08c86f1781a30eb462277cf81b52fb6457aa89d90fb78cb7ea4496142a102f2",
+      "origin": "/private/tmp/fielded-beta-billing/src/app/policies.css"
+    },
+    {
+      "path": "beta/src/app/role-workspaces.css",
+      "bytes": 13260,
+      "sha256": "b8612b3c2cf99f343beb6f2cee8f94787e71448c67ff96ac2af15626b24a686c",
+      "origin": "/private/tmp/fielded-beta-billing/src/app/role-workspaces.css"
+    },
+    {
+      "path": "beta/src/app/setup/page.tsx",
+      "bytes": 1669,
+      "sha256": "8ebfa8326f92ff6bdc22e11a223b05ec47317c4bb7197373153e4d26a002097e",
+      "origin": "/private/tmp/fielded-beta-billing/src/app/setup/page.tsx"
+    },
+    {
+      "path": "beta/src/app/signup.css",
+      "bytes": 2631,
+      "sha256": "b7d9b72613f325c4d446d288a52bb08aa2c92336671dc56990c7397ce8fc0a37",
+      "origin": "/private/tmp/fielded-beta-billing/src/app/signup.css"
+    },
+    {
+      "path": "beta/src/components/ai-connection-test.tsx",
+      "bytes": 1543,
+      "sha256": "378a204dd5b3443d0ea7e032c75f3131c6c47ca45220b600ca79eddbf1641bee",
+      "origin": "/private/tmp/fielded-beta-billing/src/components/ai-connection-test.tsx"
+    },
+    {
+      "path": "beta/src/components/app-shell.tsx",
+      "bytes": 2762,
+      "sha256": "412fa1251220d5c05853d1da25fe5f38b20c967beea41defd22cd962d64d5f95",
+      "origin": "/private/tmp/fielded-beta-billing/src/components/app-shell.tsx"
+    },
+    {
+      "path": "beta/src/components/ask-fielded.tsx",
+      "bytes": 2339,
+      "sha256": "8b6fa38fac4e6c235d1b169cd2fed222cf59fd6ba92cd153ab40df34b17efe72",
+      "origin": "/private/tmp/fielded-beta-billing/src/components/ask-fielded.tsx"
+    },
+    {
+      "path": "beta/src/components/assignment-audience-form.tsx",
+      "bytes": 1339,
+      "sha256": "f7055ca914f81c18915c9aec73d54825e19b95386954518a372a124efe11366a",
+      "origin": "/private/tmp/fielded-beta-billing/src/components/assignment-audience-form.tsx"
+    },
+    {
+      "path": "beta/src/components/audience-picker.tsx",
+      "bytes": 4102,
+      "sha256": "1b8ce229a89fd94fb5c55eb3ca4482bd1f9d401958be07d12adf97380f2c5528",
+      "origin": "/private/tmp/fielded-beta-billing/src/components/audience-picker.tsx"
+    },
+    {
+      "path": "beta/src/components/auth-card.tsx",
+      "bytes": 781,
+      "sha256": "fa91bbaa7203e0430b5b58eb34c7893eefdf8a74863f04c86a87f291c6d8080f",
+      "origin": "/private/tmp/fielded-beta-billing/src/components/auth-card.tsx"
+    },
+    {
+      "path": "beta/src/components/brand.tsx",
+      "bytes": 332,
+      "sha256": "0af8c2b7c83e29ac87401e0295422dfcc3e08668887c6720a1e806b972969445",
+      "origin": "/private/tmp/fielded-beta-billing/src/components/brand.tsx"
+    },
+    {
+      "path": "beta/src/components/commercial-code-form.tsx",
+      "bytes": 2135,
+      "sha256": "34510fe116bf0f0a2cc04ec786a381f1d672fbc23b915499340d4c29705ab7bc",
+      "origin": "/private/tmp/fielded-beta-billing/src/components/commercial-code-form.tsx"
+    },
+    {
+      "path": "beta/src/components/company-forms.tsx",
+      "bytes": 9018,
+      "sha256": "8a932b858d0ea308f59193ef1f7817be5ecacdc067fb063b19ecbd387871ad98",
+      "origin": "/private/tmp/fielded-beta-billing/src/components/company-forms.tsx"
+    },
+    {
+      "path": "beta/src/components/company-logo.tsx",
+      "bytes": 524,
+      "sha256": "fc212ecea96775b37b9a48333d075f3dff591af72aff068488bff3ec3e8bf6dc",
+      "origin": "/private/tmp/fielded-beta-billing/src/components/company-logo.tsx"
+    },
+    {
+      "path": "beta/src/components/company-people.tsx",
+      "bytes": 3826,
+      "sha256": "4b7709eec41b34497c8c2f4c4dcb750103ff3d81f9757eeebdd2a3803da44957",
+      "origin": "/private/tmp/fielded-beta-billing/src/components/company-people.tsx"
+    },
+    {
+      "path": "beta/src/components/company-profile-assistant.tsx",
+      "bytes": 2279,
+      "sha256": "f1d0c3d3e0b9a52808d88b924be5cd396f6b94f0e51cc97406f68e3e47fde51c",
+      "origin": "/private/tmp/fielded-beta-billing/src/components/company-profile-assistant.tsx"
+    },
+    {
+      "path": "beta/src/components/company-sources.tsx",
+      "bytes": 2337,
+      "sha256": "b63ae0ef0027c6b47f6fde9c33c5aabda079ac23b1da68f590bdff41941316a5",
+      "origin": "/private/tmp/fielded-beta-billing/src/components/company-sources.tsx"
+    },
+    {
+      "path": "beta/src/components/concern-attachment.tsx",
+      "bytes": 1345,
+      "sha256": "b452730a2cb9b620556829e1175a752d184994d93ea19db726b6d2715bc4497c",
+      "origin": "/private/tmp/fielded-beta-billing/src/components/concern-attachment.tsx"
+    },
+    {
+      "path": "beta/src/components/concern-forms.tsx",
+      "bytes": 3163,
+      "sha256": "4c3d6e36e95c57188ea6aec1f45340f0c55f368cfdca2e2e202fc162509496a9",
+      "origin": "/private/tmp/fielded-beta-billing/src/components/concern-forms.tsx"
+    },
+    {
+      "path": "beta/src/components/context-file-input.tsx",
+      "bytes": 4244,
+      "sha256": "3317f9c000409dc84808c05f28c5dc86edac700bcc1b15e75c0845dd21e37a76",
+      "origin": "/private/tmp/fielded-beta-billing/src/components/context-file-input.tsx"
+    },
+    {
+      "path": "beta/src/components/copy-link.tsx",
+      "bytes": 486,
+      "sha256": "918ea81c50f007dbfe625af39d3dddf13e0ad22c51a151441fb1a3e93fded7c3",
+      "origin": "/private/tmp/fielded-beta-billing/src/components/copy-link.tsx"
+    },
+    {
+      "path": "beta/src/components/dashboard.tsx",
+      "bytes": 12346,
+      "sha256": "ddc1e375d0550da8af3b2603ec7fd13783134e69c91e1fbc4daf0b24bcf294ef",
+      "origin": "/private/tmp/fielded-beta-billing/src/components/dashboard.tsx"
+    },
+    {
+      "path": "beta/src/components/evidence-references.tsx",
+      "bytes": 552,
+      "sha256": "f5ead26d20aad5ea698e48c3a6ef21c68b0233976f1b40ea08b17912f4c32503",
+      "origin": "/private/tmp/fielded-beta-billing/src/components/evidence-references.tsx"
+    },
+    {
+      "path": "beta/src/components/fielded-chat.tsx",
+      "bytes": 13483,
+      "sha256": "fb2064e2b37ecc7815d5a6dc4a2000d557dece2e65047dff9168bfcb4da9e8b8",
+      "origin": "/private/tmp/fielded-beta-billing/src/components/fielded-chat.tsx"
+    },
+    {
+      "path": "beta/src/components/fielded-dialogue.tsx",
+      "bytes": 8015,
+      "sha256": "05fe5d4569bfeed9ff94d785248a5a904ec569c31883bb6326a804f6ccafd779",
+      "origin": "/private/tmp/fielded-beta-billing/src/components/fielded-dialogue.tsx"
+    },
+    {
+      "path": "beta/src/components/integration-card.tsx",
+      "bytes": 3280,
+      "sha256": "fd6f416b1bd54951992ef2e8f262e9d49e222731df3a5effdb9a1d44b4fd3899",
+      "origin": "/private/tmp/fielded-beta-billing/src/components/integration-card.tsx"
+    },
+    {
+      "path": "beta/src/components/investigation-decision.tsx",
+      "bytes": 2026,
+      "sha256": "10b2aca7b673b3d556eea5d69b585f4715792528fdba4d941d95067ff2b48358",
+      "origin": "/private/tmp/fielded-beta-billing/src/components/investigation-decision.tsx"
+    },
+    {
+      "path": "beta/src/components/mission-launch-form.tsx",
+      "bytes": 4191,
+      "sha256": "c9c603b08126aa97ff303978120a7ab29c8c549d2cc8966732f53fa46ba385e9",
+      "origin": "/private/tmp/fielded-beta-billing/src/components/mission-launch-form.tsx"
+    },
+    {
+      "path": "beta/src/components/nav-link.tsx",
+      "bytes": 487,
+      "sha256": "d8b7556216153c97474577d25dbf7cdc152a7f63b9925d36f532fb59f074ad9e",
+      "origin": "/private/tmp/fielded-beta-billing/src/components/nav-link.tsx"
+    },
+    {
+      "path": "beta/src/components/organisation-structure.tsx",
+      "bytes": 2245,
+      "sha256": "96c59d0a5c23e9089b986428fcc2bd4844ec870975b9c62d2bf34969309c2f9d",
+      "origin": "/private/tmp/fielded-beta-billing/src/components/organisation-structure.tsx"
+    },
+    {
+      "path": "beta/src/components/personal-documents.tsx",
+      "bytes": 2577,
+      "sha256": "a0174e145b62cc80c858024779b556b2673755aec16fe525d44441db85702bfd",
+      "origin": "/private/tmp/fielded-beta-billing/src/components/personal-documents.tsx"
+    },
+    {
+      "path": "beta/src/components/personal-profile-form.tsx",
+      "bytes": 1619,
+      "sha256": "6d89f56e5a8642f88dd7e995250d9a666c3603375e9b36ec50349201b6223913",
+      "origin": "/private/tmp/fielded-beta-billing/src/components/personal-profile-form.tsx"
+    },
+    {
+      "path": "beta/src/components/policy-check.tsx",
+      "bytes": 4266,
+      "sha256": "056c802a5a6e943184b395de05297c7d799484d5946da828ea118dfb9b8ba070",
+      "origin": "/private/tmp/fielded-beta-billing/src/components/policy-check.tsx"
+    },
+    {
+      "path": "beta/src/components/policy-launch-form.tsx",
+      "bytes": 7970,
+      "sha256": "ca4fbba8cd21b2bd105d74aa89f8c2accf5e00503fe7370b969d94538a3af820",
+      "origin": "/private/tmp/fielded-beta-billing/src/components/policy-launch-form.tsx"
+    },
+    {
+      "path": "beta/src/components/publishing-controls.tsx",
+      "bytes": 7313,
+      "sha256": "9a7c7414f2ac205baff80633af7def84c28e0c2d2cd0d2969958f789c40ffafc",
+      "origin": "/private/tmp/fielded-beta-billing/src/components/publishing-controls.tsx"
+    },
+    {
+      "path": "beta/src/components/refresh-workspace.tsx",
+      "bytes": 1003,
+      "sha256": "58ce9f87f1368f3517a1b6b5bdb87e6e74ca1a5452b0ce28734c25f47b2c88dd",
+      "origin": "/private/tmp/fielded-beta-billing/src/components/refresh-workspace.tsx"
+    },
+    {
+      "path": "beta/src/components/resend-confirmation.tsx",
+      "bytes": 848,
+      "sha256": "2ed97e835bbb4247c80a206e6e30adda66ed8b7cb398762fece037e384ebe45e",
+      "origin": "/private/tmp/fielded-beta-billing/src/components/resend-confirmation.tsx"
+    },
+    {
+      "path": "beta/src/components/role-dashboards.tsx",
+      "bytes": 8909,
+      "sha256": "b3a8debaa22aaf43af7675265a68790d8b4f76c3792f3d1c6b08a77d2d431102",
+      "origin": "/private/tmp/fielded-beta-billing/src/components/role-dashboards.tsx"
+    },
+    {
+      "path": "beta/src/components/signup-wizard.tsx",
+      "bytes": 7063,
+      "sha256": "4fcfef1eff541ea27fa1760721236faac603c60a2914fce089378db484a27c89",
+      "origin": "/private/tmp/fielded-beta-billing/src/components/signup-wizard.tsx"
+    },
+    {
+      "path": "beta/src/components/structure-editor.tsx",
+      "bytes": 3614,
+      "sha256": "a81a7739430688515281a9ed29485b1ad8b55f204cc30c164cf90e093ca150cc",
+      "origin": "/private/tmp/fielded-beta-billing/src/components/structure-editor.tsx"
+    },
+    {
+      "path": "beta/src/components/structure-import.tsx",
+      "bytes": 3946,
+      "sha256": "073327d0e696cbf95f317fec87a74a9d38ab20b75daf1fc7bb224b901ad650c7",
+      "origin": "/private/tmp/fielded-beta-billing/src/components/structure-import.tsx"
+    },
+    {
+      "path": "beta/src/components/suggestion-forms.tsx",
+      "bytes": 3660,
+      "sha256": "fd07987d0841bcb0850ae51bb9db4b6b54909f99ac3fa5383e466884f9b13306",
+      "origin": "/private/tmp/fielded-beta-billing/src/components/suggestion-forms.tsx"
+    },
+    {
+      "path": "beta/src/components/trial-plan-field.tsx",
+      "bytes": 777,
+      "sha256": "4f27b19992f834ef3fdd6742bc4b08ef42947376bbcca4fd13a26aabc9d29b21",
+      "origin": "/private/tmp/fielded-beta-billing/src/components/trial-plan-field.tsx"
+    },
+    {
+      "path": "beta/src/components/work-actions.tsx",
+      "bytes": 1004,
+      "sha256": "48a13730d81e3f40fc40b9c3882ee9b8f5f3a5fee57ec91cf456f35f3c9b8bb6",
+      "origin": "/private/tmp/fielded-beta-billing/src/components/work-actions.tsx"
+    },
+    {
+      "path": "beta/src/components/workspace-navigation.tsx",
+      "bytes": 3537,
+      "sha256": "cd12a88edc6fedd2b5ea8634e9f2e19d4f31d0c9a9dc5645009619bc83ae1622",
+      "origin": "/private/tmp/fielded-beta-billing/src/components/workspace-navigation.tsx"
+    },
+    {
+      "path": "beta/src/lib/ai-budget.ts",
+      "bytes": 6238,
+      "sha256": "ecd33c3cc52a37d167d16793950165a301b3b1c38031dab21aacb3350f13c58d",
+      "origin": "/private/tmp/fielded-beta-billing/src/lib/ai-budget.ts"
+    },
+    {
+      "path": "beta/src/lib/ai-diagnostics.ts",
+      "bytes": 1582,
+      "sha256": "c6f808eef1fe96c6b4bc89cb4bc061df7be2f65be980e3ff1a7dfa5c1ed401cd",
+      "origin": "/private/tmp/fielded-beta-billing/src/lib/ai-diagnostics.ts"
+    },
+    {
+      "path": "beta/src/lib/ai-failure.ts",
+      "bytes": 1827,
+      "sha256": "e8f011782f6b90da5a38c58cd106ba3173d928e435af7deae8c735ae7d7c2625",
+      "origin": "/private/tmp/fielded-beta-billing/src/lib/ai-failure.ts"
+    },
+    {
+      "path": "beta/src/lib/ai-workspace.ts",
+      "bytes": 228,
+      "sha256": "8926704f9ce3c17e0d476fc64531146a97b3105b21fa93b0e2a76093062dd329",
+      "origin": "/private/tmp/fielded-beta-billing/src/lib/ai-workspace.ts"
+    },
+    {
+      "path": "beta/src/lib/ai.ts",
+      "bytes": 8623,
+      "sha256": "b1107aaf24e7b25a0845d0ab80828c459574a0010375cfd4639ef359e31dce65",
+      "origin": "/private/tmp/fielded-beta-billing/src/lib/ai.ts"
+    },
+    {
+      "path": "beta/src/lib/audience.ts",
+      "bytes": 1357,
+      "sha256": "1e30ca8ad9c450b560f8cd86a8fe2fa91694e64f27348cb0e82c30e57138f092",
+      "origin": "/private/tmp/fielded-beta-billing/src/lib/audience.ts"
+    },
+    {
+      "path": "beta/src/lib/auth.ts",
+      "bytes": 2413,
+      "sha256": "7fda033fa466148aec8fdff17ab52c4d46ff955bd21e420f1580ef1ebdddaca7",
+      "origin": "/private/tmp/fielded-beta-billing/src/lib/auth.ts"
+    },
+    {
+      "path": "beta/src/lib/company-source-refresh.ts",
+      "bytes": 1044,
+      "sha256": "504ddf6e8843d487504c3e307d037f33d4bfebb372bf96dc0df5e5944e633050",
+      "origin": "/private/tmp/fielded-beta-billing/src/lib/company-source-refresh.ts"
+    },
+    {
+      "path": "beta/src/lib/company.ts",
+      "bytes": 2536,
+      "sha256": "bfc1ce09fbd35b70c281e38a63e14849dbd337b4803c090640996894d5e84287",
+      "origin": "/private/tmp/fielded-beta-billing/src/lib/company.ts"
+    },
+    {
+      "path": "beta/src/lib/crypto.ts",
+      "bytes": 935,
+      "sha256": "adefff3d61b4cbd4275bf177f0e33483d76d76f1b034f3e6c6a58b9e9cf63459",
+      "origin": "/private/tmp/fielded-beta-billing/src/lib/crypto.ts"
+    },
+    {
+      "path": "beta/src/lib/email.ts",
+      "bytes": 3425,
+      "sha256": "5415852be8cce7a438f03c902d45f4bff6872abb9986922dc6858f698cbace5f",
+      "origin": "/private/tmp/fielded-beta-billing/src/lib/email.ts"
+    },
+    {
+      "path": "beta/src/lib/entitlements.ts",
+      "bytes": 714,
+      "sha256": "74420a2499287eac77accc9d87552f0b8d072de056480ba8697f7ea4549df407",
+      "origin": "/private/tmp/fielded-beta-billing/src/lib/entitlements.ts"
+    },
+    {
+      "path": "beta/src/lib/env.ts",
+      "bytes": 437,
+      "sha256": "9b1e7393f747e49decbff35e50ea02e7a92ef0670fcb94c5281de4515a7b9b85",
+      "origin": "/private/tmp/fielded-beta-billing/src/lib/env.ts"
+    },
+    {
+      "path": "beta/src/lib/evidence-links.ts",
+      "bytes": 678,
+      "sha256": "8cc0753d2348550561e24dcc9cf5459af3eb7d22d040838de90b19834c9f8fbd",
+      "origin": "/private/tmp/fielded-beta-billing/src/lib/evidence-links.ts"
+    },
+    {
+      "path": "beta/src/lib/integrations.ts",
+      "bytes": 740,
+      "sha256": "cc4a5c88dc2f5f6dcb5d4817534b4c2adc7a69ea70541db81989a2dc0349cba2",
+      "origin": "/private/tmp/fielded-beta-billing/src/lib/integrations.ts"
+    },
+    {
+      "path": "beta/src/lib/mission-analysis.ts",
+      "bytes": 11028,
+      "sha256": "0c0397d1d6ed74e6c8b90cc6ab062067be2f8207894c5a7886ebf24dbc31bf1b",
+      "origin": "/private/tmp/fielded-beta-billing/src/lib/mission-analysis.ts"
+    },
+    {
+      "path": "beta/src/lib/plans.ts",
+      "bytes": 483,
+      "sha256": "68f5acc1c586ea9c25822c44766eff52f5a767f887a70f83fafbcff39419ffa9",
+      "origin": "/private/tmp/fielded-beta-billing/src/lib/plans.ts"
+    },
+    {
+      "path": "beta/src/lib/platform-admin.ts",
+      "bytes": 628,
+      "sha256": "20dd36fd18c8a01e5f56256abc373385b1bd2dea7cf9252fb36516e0f336c8ac",
+      "origin": "/private/tmp/fielded-beta-billing/src/lib/platform-admin.ts"
+    },
+    {
+      "path": "beta/src/lib/policy-schema.ts",
+      "bytes": 1597,
+      "sha256": "4b2e0cef2802cadb876e742f1590190fa5dee918f76c26a6cd2cb5a45c8cf8a6",
+      "origin": "/private/tmp/fielded-beta-billing/src/lib/policy-schema.ts"
+    },
+    {
+      "path": "beta/src/lib/profile-options.ts",
+      "bytes": 1608,
+      "sha256": "223669699544668becf137a1d776d6fb32b7e0903c1436ba9bc366620ce63873",
+      "origin": "/private/tmp/fielded-beta-billing/src/lib/profile-options.ts"
+    },
+    {
+      "path": "beta/src/lib/public-source.ts",
+      "bytes": 3261,
+      "sha256": "b22f2183fe813395b85c721753fa07006445d6f71ff3c424e6c81b32aa9e7d01",
+      "origin": "/private/tmp/fielded-beta-billing/src/lib/public-source.ts"
+    },
+    {
+      "path": "beta/src/lib/publishing.ts",
+      "bytes": 1736,
+      "sha256": "ad08dda8bd28f08fac86b9e33056377e7138a85cb63ca8c3aecb805364fafa21",
+      "origin": "/private/tmp/fielded-beta-billing/src/lib/publishing.ts"
+    },
+    {
+      "path": "beta/src/lib/safe-redirect.ts",
+      "bytes": 411,
+      "sha256": "f3a7abb4c36e9696b616cba2d35900d30e2c121d3cb6ecd57b79799dbd3e5658",
+      "origin": "/private/tmp/fielded-beta-billing/src/lib/safe-redirect.ts"
+    },
+    {
+      "path": "beta/src/lib/signup-intent.ts",
+      "bytes": 1648,
+      "sha256": "a260866013181fae036cdf6e466e2e782b25059d554c1bbebc2a260d8509bdc9",
+      "origin": "/private/tmp/fielded-beta-billing/src/lib/signup-intent.ts"
+    },
+    {
+      "path": "beta/src/lib/supabase/admin.ts",
+      "bytes": 334,
+      "sha256": "3414a26d96c45beecb76c4caa3367ecb0494a8bd34345805ad365b650d01f444",
+      "origin": "/private/tmp/fielded-beta-billing/src/lib/supabase/admin.ts"
+    },
+    {
+      "path": "beta/src/lib/supabase/browser.ts",
+      "bytes": 237,
+      "sha256": "097931dcc2caad0959fa10153efb8a415b384e6a7f1d5468c160469f2862bb7f",
+      "origin": "/private/tmp/fielded-beta-billing/src/lib/supabase/browser.ts"
+    },
+    {
+      "path": "beta/src/lib/supabase/proxy.ts",
+      "bytes": 3225,
+      "sha256": "7d8e8301ffb7eb3681c6b31ebf3c2769069f0a9750e85874f0b077b5bb37de59",
+      "origin": "/private/tmp/fielded-beta-billing/src/lib/supabase/proxy.ts"
+    },
+    {
+      "path": "beta/src/lib/supabase/server.ts",
+      "bytes": 725,
+      "sha256": "d860c020a6d35ff9ad1e8de6e81164329451cdddc1d1015d7bd70ebd141460f0",
+      "origin": "/private/tmp/fielded-beta-billing/src/lib/supabase/server.ts"
+    },
+    {
+      "path": "beta/src/lib/types.ts",
+      "bytes": 304,
+      "sha256": "9139af4c4b2ddf3e1c675f59b0bec17ed58e8dfbf6f3ac7dddfaeb84eb0e3e43",
+      "origin": "/private/tmp/fielded-beta-billing/src/lib/types.ts"
+    },
+    {
+      "path": "beta/src/lib/work-notifications.ts",
+      "bytes": 2869,
+      "sha256": "544d097fe3bf52134e913cd218f5fa7ca5b004a580d511e28ed1f9e2cf27b449",
+      "origin": "/private/tmp/fielded-beta-billing/src/lib/work-notifications.ts"
+    },
+    {
+      "path": "beta/src/lib/workspace-directory.ts",
+      "bytes": 1886,
+      "sha256": "437d39a81227517d27f156d90bc96fedbdf9cdcb5daaab93435b0e9da83c1d25",
+      "origin": "/private/tmp/fielded-beta-billing/src/lib/workspace-directory.ts"
+    },
+    {
+      "path": "beta/src/proxy.ts",
+      "bytes": 316,
+      "sha256": "1d5bcdc12dc844ab09c0220014da87f27e7ee1f987faa47c21bdac5fd7f72956",
+      "origin": "/private/tmp/fielded-beta-billing/src/proxy.ts"
+    },
+    {
+      "path": "beta/supabase/migrations/001_core.sql",
+      "bytes": 30002,
+      "sha256": "1784237fcdc89174cb4d1cdc18bab59ddbac7f0019b13526b4206c9e10059c15",
+      "origin": "/Users/riz/Documents/Codex/2026-09-01/referenced-chatgpt-conversation-this-is-an/tryfielded/supabase/migrations/001_core.sql"
+    },
+    {
+      "path": "beta/supabase/migrations/002_invitation_profiles.sql",
+      "bytes": 9445,
+      "sha256": "d413c8ea6c801773ca5ef63f4718ad257939f3404f4930821cc3590b70ca1cd0",
+      "origin": "/Users/riz/Documents/Codex/2026-09-01/referenced-chatgpt-conversation-this-is-an/tryfielded/supabase/migrations/002_invitation_profiles.sql"
+    },
+    {
+      "path": "beta/supabase/migrations/003_invitation_security.sql",
+      "bytes": 5975,
+      "sha256": "516c5111e15054afafd270654324287d02acdb63ac12a9ef0a47882289e1a93c",
+      "origin": "/Users/riz/Documents/Codex/2026-09-01/referenced-chatgpt-conversation-this-is-an/tryfielded/supabase/migrations/003_invitation_security.sql"
+    },
+    {
+      "path": "beta/supabase/migrations/004_atomic_approval.sql",
+      "bytes": 1971,
+      "sha256": "ba0435f955a611a1cd251f15807ae346953f056463d2f6c9bd4d187013cc9db8",
+      "origin": "/Users/riz/Documents/Codex/2026-09-01/referenced-chatgpt-conversation-this-is-an/tryfielded/supabase/migrations/004_atomic_approval.sql"
+    },
+    {
+      "path": "beta/supabase/migrations/005_atomic_synthesis.sql",
+      "bytes": 2518,
+      "sha256": "927f0b80121cbd674130bce78efe6bfa7593f9fd8557fc2f6aedb8f2e5964d2d",
+      "origin": "/Users/riz/Documents/Codex/2026-09-01/referenced-chatgpt-conversation-this-is-an/tryfielded/supabase/migrations/005_atomic_synthesis.sql"
+    },
+    {
+      "path": "beta/supabase/migrations/006_conversation_access.sql",
+      "bytes": 4436,
+      "sha256": "65047eb1881dc4f88b9599246818b011f9d5350a9e2f831e70af5245197cb561",
+      "origin": "/Users/riz/Documents/Codex/2026-09-01/referenced-chatgpt-conversation-this-is-an/tryfielded/supabase/migrations/006_conversation_access.sql"
+    },
+    {
+      "path": "beta/supabase/migrations/007_function_permissions.sql",
+      "bytes": 1148,
+      "sha256": "33f221d366f4cb328f94d24a253f74a7734ef4bc269fcdfa0b4c8c37ae37e60f",
+      "origin": "/Users/riz/Documents/Codex/2026-09-01/referenced-chatgpt-conversation-this-is-an/tryfielded/supabase/migrations/007_function_permissions.sql"
+    },
+    {
+      "path": "beta/supabase/migrations/008_ai_budget.sql",
+      "bytes": 2488,
+      "sha256": "757d50f70e2d282f47ee684f1438375c2789632d506dcb04f080ea262fbf1a63",
+      "origin": "/Users/riz/Documents/Codex/2026-09-01/referenced-chatgpt-conversation-this-is-an/tryfielded/supabase/migrations/008_ai_budget.sql"
+    },
+    {
+      "path": "beta/supabase/migrations/009_work_routing.sql",
+      "bytes": 13529,
+      "sha256": "bed0569047a02ca290dc84476f543988ea9156182786269c58952c841afdecbb",
+      "origin": "/Users/riz/Documents/Codex/2026-09-01/referenced-chatgpt-conversation-this-is-an/tryfielded/supabase/migrations/009_work_routing.sql"
+    },
+    {
+      "path": "beta/supabase/migrations/010_beta_admin.sql",
+      "bytes": 1491,
+      "sha256": "1a039b9e5c87eb88db954661d63a1afbb63332518f95b7f50d24f765d8cd3ab1",
+      "origin": "/Users/riz/Documents/Codex/2026-09-01/referenced-chatgpt-conversation-this-is-an/tryfielded/supabase/migrations/010_beta_admin.sql"
+    },
+    {
+      "path": "beta/supabase/migrations/011_gemini36_budget.sql",
+      "bytes": 2157,
+      "sha256": "e873c1b2ee262b922da8bbf6b722f47873a2a7495a23b4d58d9ddd561ab15cc4",
+      "origin": "/Users/riz/Documents/Codex/2026-09-01/referenced-chatgpt-conversation-this-is-an/tryfielded/supabase/migrations/011_gemini36_budget.sql"
+    },
+    {
+      "path": "beta/supabase/migrations/012_ai_review_lifecycle.sql",
+      "bytes": 8868,
+      "sha256": "1a62b3185a58933b03fb684a15867c2210d9a5a82e373d0a2ef0817a05919cc9",
+      "origin": "/Users/riz/Documents/Codex/2026-09-01/referenced-chatgpt-conversation-this-is-an/tryfielded/supabase/migrations/012_ai_review_lifecycle.sql"
+    },
+    {
+      "path": "beta/supabase/migrations/013_evidence_privacy.sql",
+      "bytes": 3020,
+      "sha256": "1b124be0855df18a622f6bdc052b9420545f0e38e3c6a2c8b7af21ac5cf58d4f",
+      "origin": "/Users/riz/Documents/Codex/2026-09-01/referenced-chatgpt-conversation-this-is-an/tryfielded/supabase/migrations/013_evidence_privacy.sql"
+    },
+    {
+      "path": "beta/supabase/migrations/014_atomic_mission_launch.sql",
+      "bytes": 3340,
+      "sha256": "5ab4dffa61c3c400e2a0c5e24a07dfa532d90919d9da3ecc8b44d804f83b8014",
+      "origin": "/Users/riz/Documents/Codex/2026-09-01/referenced-chatgpt-conversation-this-is-an/tryfielded/supabase/migrations/014_atomic_mission_launch.sql"
+    },
+    {
+      "path": "beta/supabase/migrations/015_mission_analysis_queue.sql",
+      "bytes": 12879,
+      "sha256": "22fc3d6812217f50f8466734f4a8f61170d0d2423885967bea4a2bc5bbd5ad41",
+      "origin": "/Users/riz/Documents/Codex/2026-09-01/referenced-chatgpt-conversation-this-is-an/tryfielded/supabase/migrations/015_mission_analysis_queue.sql"
+    },
+    {
+      "path": "beta/supabase/migrations/016_policy_communications.sql",
+      "bytes": 12412,
+      "sha256": "604355500676d43442d7c3a33d02cca56e602544e28b4c009a65a7d69800a960",
+      "origin": "/Users/riz/Documents/Codex/2026-09-01/referenced-chatgpt-conversation-this-is-an/tryfielded/supabase/migrations/016_policy_communications.sql"
+    },
+    {
+      "path": "beta/supabase/migrations/017_investigation_routing.sql",
+      "bytes": 18600,
+      "sha256": "29b5e139ede034b238c7870079e3b21ad8bd8b84d303d4ff5eb4552dca749d6d",
+      "origin": "/Users/riz/Documents/Codex/2026-09-01/referenced-chatgpt-conversation-this-is-an/tryfielded/supabase/migrations/017_investigation_routing.sql"
+    },
+    {
+      "path": "beta/supabase/migrations/018_organisation_directory.sql",
+      "bytes": 21909,
+      "sha256": "116e330041054e305446b059c680d354167c69325fb3a3d1a1d3842568bbd2d2",
+      "origin": "/Users/riz/Documents/Codex/2026-09-01/referenced-chatgpt-conversation-this-is-an/tryfielded/supabase/migrations/018_organisation_directory.sql"
+    },
+    {
+      "path": "beta/supabase/migrations/019_publishing_permissions.sql",
+      "bytes": 25869,
+      "sha256": "f800bc5f1eaa547a9094dafd270077a259f341c19b4febc45e13f13ae6c31256",
+      "origin": "/Users/riz/Documents/Codex/2026-09-01/referenced-chatgpt-conversation-this-is-an/tryfielded/supabase/migrations/019_publishing_permissions.sql"
+    },
+    {
+      "path": "beta/supabase/migrations/020_mission_visibility.sql",
+      "bytes": 13905,
+      "sha256": "6f5f222480d97ef3b8aeb01ebf5278b9a598d42bed040a43a92c275c0c4cdd6e",
+      "origin": "/Users/riz/Documents/Codex/2026-09-01/referenced-chatgpt-conversation-this-is-an/tryfielded/supabase/migrations/020_mission_visibility.sql"
+    },
+    {
+      "path": "beta/supabase/migrations/021_company_context.sql",
+      "bytes": 16562,
+      "sha256": "82793ea7e59c6f0d43d2df86bbfd81282849b1ad87c1de36469518f0a5ff376c",
+      "origin": "/Users/riz/Documents/Codex/2026-09-01/referenced-chatgpt-conversation-this-is-an/tryfielded/supabase/migrations/021_company_context.sql"
+    },
+    {
+      "path": "beta/supabase/migrations/022_delegated_company_structure.sql",
+      "bytes": 8842,
+      "sha256": "d01677b32d90b6fdc753ae09f444b7250dd365df945d4aff386f13ad0263ea04",
+      "origin": "/Users/riz/Documents/Codex/2026-09-01/referenced-chatgpt-conversation-this-is-an/tryfielded/supabase/migrations/022_delegated_company_structure.sql"
+    },
+    {
+      "path": "beta/supabase/migrations/023_employee_suggestions.sql",
+      "bytes": 6493,
+      "sha256": "a04ea2bef05ff0994e073991213ac48257e4c12c9c5873bb4ed2478d9a7d9d5e",
+      "origin": "/Users/riz/Documents/Codex/2026-09-01/referenced-chatgpt-conversation-this-is-an/tryfielded/supabase/migrations/023_employee_suggestions.sql"
+    },
+    {
+      "path": "beta/supabase/migrations/024_open_dialogue.sql",
+      "bytes": 7128,
+      "sha256": "95ff1a30074d508eca59d3f5e20f9dc444d1c25b538e135635f3a1d6d0f1479f",
+      "origin": "/Users/riz/Documents/Codex/2026-09-01/referenced-chatgpt-conversation-this-is-an/tryfielded/supabase/migrations/024_open_dialogue.sql"
+    },
+    {
+      "path": "beta/supabase/migrations/025_confidential_concerns.sql",
+      "bytes": 6188,
+      "sha256": "1093ce62ec5923fe5f9edfde1e1055149fc9658e30433d258219f4176051344b",
+      "origin": "/Users/riz/Documents/Codex/2026-09-01/referenced-chatgpt-conversation-this-is-an/tryfielded/supabase/migrations/025_confidential_concerns.sql"
+    },
+    {
+      "path": "beta/supabase/migrations/026_scoped_team_onboarding.sql",
+      "bytes": 7871,
+      "sha256": "0b3b1af71d53c59189bd04a7f1cf4374f715273d7b8a55c1981aa678d16fd447",
+      "origin": "/Users/riz/Documents/Codex/2026-09-01/referenced-chatgpt-conversation-this-is-an/tryfielded/supabase/migrations/026_scoped_team_onboarding.sql"
+    },
+    {
+      "path": "beta/supabase/migrations/027_company_sources.sql",
+      "bytes": 8288,
+      "sha256": "5598bc19a94f9916fd5f1586bd9eca7e5b5fdc029267c33301910aa119c802ed",
+      "origin": "/Users/riz/Documents/Codex/2026-09-01/referenced-chatgpt-conversation-this-is-an/tryfielded/supabase/migrations/027_company_sources.sql"
+    },
+    {
+      "path": "beta/supabase/migrations/028_directory_projection.sql",
+      "bytes": 1710,
+      "sha256": "3de9106e463d71aa990eeda98c8eecec1e0618db1e6e9da6a63d3d94943908e6",
+      "origin": "/Users/riz/Documents/Codex/2026-09-01/referenced-chatgpt-conversation-this-is-an/tryfielded/supabase/migrations/028_directory_projection.sql"
+    },
+    {
+      "path": "beta/supabase/migrations/029_personal_reference_documents.sql",
+      "bytes": 4192,
+      "sha256": "7981eee1b922143700e953b434ee2e644acb1113bf4c3ba6cd273d626c90000f",
+      "origin": "/Users/riz/Documents/Codex/2026-09-01/referenced-chatgpt-conversation-this-is-an/tryfielded/supabase/migrations/029_personal_reference_documents.sql"
+    },
+    {
+      "path": "beta/supabase/migrations/030_suggestion_conversation.sql",
+      "bytes": 5182,
+      "sha256": "9a21445aefa9b5cb382b3c2e2098aec96a53f86d36070b27c605c8e31c6ed5c8",
+      "origin": "/Users/riz/Documents/Codex/2026-09-01/referenced-chatgpt-conversation-this-is-an/tryfielded/supabase/migrations/030_suggestion_conversation.sql"
+    },
+    {
+      "path": "beta/supabase/migrations/031_context_and_dialogue_controls.sql",
+      "bytes": 6580,
+      "sha256": "4fe568b2cdabc012770c2d9d78db778382990a4e7fbd001135b53ed4be99a3b8",
+      "origin": "/Users/riz/Documents/Codex/2026-09-01/referenced-chatgpt-conversation-this-is-an/tryfielded/supabase/migrations/031_context_and_dialogue_controls.sql"
+    },
+    {
+      "path": "beta/supabase/migrations/032_reviewed_structure_import.sql",
+      "bytes": 3151,
+      "sha256": "e8a14e59d8ccf73e89e4ad7f39809575884775d6a6b894e01256707cb9c419f7",
+      "origin": "/Users/riz/Documents/Codex/2026-09-01/referenced-chatgpt-conversation-this-is-an/tryfielded/supabase/migrations/032_reviewed_structure_import.sql"
+    },
+    {
+      "path": "beta/supabase/migrations/033_company_onboarding.sql",
+      "bytes": 1023,
+      "sha256": "95245ad28147596bd4669cdd6ca636778d3e610ecfea69ec0aa8a4635d96ee92",
+      "origin": "/Users/riz/Documents/Codex/2026-09-01/referenced-chatgpt-conversation-this-is-an/tryfielded/supabase/migrations/033_company_onboarding.sql"
+    },
+    {
+      "path": "beta/supabase/migrations/034_confidential_case_records.sql",
+      "bytes": 4551,
+      "sha256": "3ed905ebd0036bf8302368bf31588d82e264bc92fded104ad073b75d2746f165",
+      "origin": "/Users/riz/Documents/Codex/2026-09-01/referenced-chatgpt-conversation-this-is-an/tryfielded/supabase/migrations/034_confidential_case_records.sql"
+    },
+    {
+      "path": "beta/supabase/migrations/035_department_publishing_defaults.sql",
+      "bytes": 7116,
+      "sha256": "64a1b75269f3f42873c3bfef297df6e55cfd650ae32ff8378ad4586d89347824",
+      "origin": "/Users/riz/Documents/Codex/2026-09-01/referenced-chatgpt-conversation-this-is-an/tryfielded/supabase/migrations/035_department_publishing_defaults.sql"
+    },
+    {
+      "path": "beta/supabase/migrations/036_concern_attachment_path.sql",
+      "bytes": 448,
+      "sha256": "2876727166295a6899e4f30a07237c12fcc57f7c9fefde178fc481c5b6a495f6",
+      "origin": "/Users/riz/Documents/Codex/2026-09-01/referenced-chatgpt-conversation-this-is-an/tryfielded/supabase/migrations/036_concern_attachment_path.sql"
+    },
+    {
+      "path": "beta/supabase/migrations/037_commercial_access.sql",
+      "bytes": 13664,
+      "sha256": "2d5483e7bee840ccd402cb7817657e56d190a1d066888142f0650f2aa6c8de21",
+      "origin": "/private/tmp/fielded-beta-billing/supabase/migrations/037_commercial_access.sql"
+    },
+    {
+      "path": "beta/supabase/migrations/038_trial_write_guards.sql",
+      "bytes": 3086,
+      "sha256": "3504639b86b6738d8e4346f1915320ce9451290bf8a3ee73f1e66038e4a459f0",
+      "origin": "/private/tmp/fielded-beta-billing/supabase/migrations/038_trial_write_guards.sql"
+    },
+    {
+      "path": "beta/supabase/templates/confirmation.html",
+      "bytes": 1301,
+      "sha256": "f0b084108aa42da06f3d2ab20bf0fca5f6902021b5f9b8207c5498d219889d9f",
+      "origin": "/private/tmp/fielded-beta-billing/supabase/templates/confirmation.html"
+    },
+    {
+      "path": "beta/tests/signup-intent.test.mjs",
+      "bytes": 1767,
+      "sha256": "2c88a60c6f789e46f41cc22ceb0a4626bb79dc3be6205b52e34ae167520f9457",
+      "origin": "/private/tmp/fielded-beta-billing/tests/signup-intent.test.mjs"
+    },
+    {
+      "path": "beta/tsconfig.json",
+      "bytes": 746,
+      "sha256": "7f3acb5ec7d9074419a207fadfd352206287377e292235848fa1c24a3820bbfd",
+      "origin": "/private/tmp/fielded-beta-billing/tsconfig.json"
+    },
+    {
+      "path": "beta/vercel.json",
+      "bytes": 84,
+      "sha256": "319b6c907ad4d9812f9b6e968c94c4232423dd0f6368ceed52414c9995ac3796",
+      "origin": "/private/tmp/fielded-beta-billing/vercel.json"
+    },
+    {
+      "path": "demo/.gitignore",
+      "bytes": 14,
+      "sha256": "6fe16e5e5dad9408c6a9082604c816d8067641ae1b5e59aceb90eb51c1088c63",
+      "origin": "/private/tmp/fielded-demo-protected/.gitignore"
+    },
+    {
+      "path": "demo/.vercelignore",
+      "bytes": 25,
+      "sha256": "c68b0e7a2cb5591bf73f6821d9f7e5ae0e3adae69a39a05cb73b2e4d3ec793e4",
+      "origin": "/private/tmp/fielded-demo-protected/.vercelignore"
+    },
+    {
+      "path": "demo/api/entry.js",
+      "bytes": 6867,
+      "sha256": "9a0d10def99c849261acd798976244c69f5b498d0b437477eb919034b8935a45",
+      "origin": "/private/tmp/fielded-demo-protected/api/entry.js"
+    },
+    {
+      "path": "demo/package.json",
+      "bytes": 153,
+      "sha256": "fbce130a6bcf6bd4fdf840e4d660c4b124c10f9d0b81f1357d1a1c735aaee276",
+      "origin": "/private/tmp/fielded-demo-protected/package.json"
+    },
+    {
+      "path": "demo/private-demo/.vercelignore",
+      "bytes": 25,
+      "sha256": "116de77c26b1007f19ab242b3f155db7754373adcd0c4b1abaa7932d12f06dac",
+      "origin": "/private/tmp/fielded-demo-protected/private-demo/.vercelignore"
+    },
+    {
+      "path": "demo/private-demo/api/fielded-ai.js",
+      "bytes": 6930,
+      "sha256": "b0a0dde7043ecdfcaa1621c5d2cb843820744f3ad6d1c57fb45d3dc012dfa3ea",
+      "origin": "/private/tmp/fielded-demo-protected/private-demo/api/fielded-ai.js"
+    },
+    {
+      "path": "demo/private-demo/app.js",
+      "bytes": 71416,
+      "sha256": "c8be535ca0e1126c1eab75e03d4772d5eb60c06b32d994f6a765aa91ab602e2b",
+      "origin": "/private/tmp/fielded-demo-protected/private-demo/app.js"
+    },
+    {
+      "path": "demo/private-demo/assets/fielded-icons.js",
+      "bytes": 3204,
+      "sha256": "ee7ef6e8ce4ff25fbf747178e84034212ff6e32a6cb2b83dfc4819119ca47125",
+      "origin": "/private/tmp/fielded-demo-protected/private-demo/assets/fielded-icons.js"
+    },
+    {
+      "path": "demo/private-demo/assets/fielded-logo.png",
+      "bytes": 21325,
+      "sha256": "003c03cded9cc8f54267c0e410339ba71d903c3ee3e3f465ef3f18a464f00074",
+      "origin": "/private/tmp/fielded-demo-protected/private-demo/assets/fielded-logo.png"
+    },
+    {
+      "path": "demo/private-demo/assets/lucide-LICENSE",
+      "bytes": 3208,
+      "sha256": "b495047bd93a9b06913511076f504daba17d5bbeb3e0650f3bb53a4220329c57",
+      "origin": "/private/tmp/fielded-demo-protected/private-demo/assets/lucide-LICENSE"
+    },
+    {
+      "path": "demo/private-demo/consulting.js",
+      "bytes": 33320,
+      "sha256": "db394944368dc978b46ce8d0a838ffa27ddbe462ca816ca2d50b843f821f68cc",
+      "origin": "/private/tmp/fielded-demo-protected/private-demo/consulting.js"
+    },
+    {
+      "path": "demo/private-demo/dialogue.css",
+      "bytes": 18313,
+      "sha256": "c4444b289babc264eaa05d989af2d1b284e8f52b8d69af2901c9b3ca69e5140c",
+      "origin": "/private/tmp/fielded-demo-protected/private-demo/dialogue.css"
+    },
+    {
+      "path": "demo/private-demo/dialogue.js",
+      "bytes": 35899,
+      "sha256": "601c6b755a84d457d80f670912658032607502474c7d4746ff23d2b8654d99c5",
+      "origin": "/private/tmp/fielded-demo-protected/private-demo/dialogue.js"
+    },
+    {
+      "path": "demo/private-demo/enterprise.css",
+      "bytes": 14611,
+      "sha256": "ef445408a9c08809bf994e6e32919edaaf60cf549533d2a0400f773528bb4a79",
+      "origin": "/private/tmp/fielded-demo-protected/private-demo/enterprise.css"
+    },
+    {
+      "path": "demo/private-demo/enterprise.js",
+      "bytes": 31623,
+      "sha256": "e2c149cd50c3a4d95e3e1e6dabfe1b2a33d8c515e3713f4b8187598767f7e7fc",
+      "origin": "/private/tmp/fielded-demo-protected/private-demo/enterprise.js"
+    },
+    {
+      "path": "demo/private-demo/experiences.css",
+      "bytes": 25008,
+      "sha256": "e9efb97c0025a66b32d4c930187694c16d1f4823a088d3f99c3431d4a105f20e",
+      "origin": "/private/tmp/fielded-demo-protected/private-demo/experiences.css"
+    },
+    {
+      "path": "demo/private-demo/experiences.js",
+      "bytes": 57745,
+      "sha256": "cb430d50b80632bfe4344d85c11ce38ed625940f0053287490305ec19f6821b0",
+      "origin": "/private/tmp/fielded-demo-protected/private-demo/experiences.js"
+    },
+    {
+      "path": "demo/private-demo/hr.js",
+      "bytes": 21910,
+      "sha256": "38dd33eb5202a8d745fee064a126f3337cfe9c7a56e5a65c0c16a3c0ba3f7c2f",
+      "origin": "/private/tmp/fielded-demo-protected/private-demo/hr.js"
+    },
+    {
+      "path": "demo/private-demo/index.html",
+      "bytes": 1409,
+      "sha256": "93222ebc75c7df5c0e9690da653ce4bebcb23be38519d1ac7e475940ed4595eb",
+      "origin": "/private/tmp/fielded-demo-protected/private-demo/index.html"
+    },
+    {
+      "path": "demo/private-demo/styles.css",
+      "bytes": 94455,
+      "sha256": "0fb20dcb4e9dbd7158d02982596e1a4cd55675fea3cc6b347396907019a8cb99",
+      "origin": "/private/tmp/fielded-demo-protected/private-demo/styles.css"
+    },
+    {
+      "path": "demo/private-demo/vercel.json",
+      "bytes": 1025,
+      "sha256": "37a89a6b4f43d9f27a8ed71746d0f6a634bb4551d107bad674a1e1cb85c9387e",
+      "origin": "/private/tmp/fielded-demo-protected/private-demo/vercel.json"
+    },
+    {
+      "path": "demo/public/robots.txt",
+      "bytes": 26,
+      "sha256": "331ea9090db0c9f6f597bd9840fd5b171830f6e0b3ba1cb24dfa91f0c95aedc1",
+      "origin": "/private/tmp/fielded-demo-protected/public/robots.txt"
+    },
+    {
+      "path": "demo/tests/gate.test.mjs",
+      "bytes": 2740,
+      "sha256": "6628f737b7c70dfee98f097f38435af21dfc0477d0b1708780f149569b06d8b2",
+      "origin": "/private/tmp/fielded-demo-protected/tests/gate.test.mjs"
+    },
+    {
+      "path": "demo/vercel.json",
+      "bytes": 236,
+      "sha256": "a77f81af8b85abc0e31beeca699c6773bed599ef12f4662c30fcd1225befb7a5",
+      "origin": "/private/tmp/fielded-demo-protected/vercel.json"
+    },
+    {
+      "path": "review-tests/commercial.test.mjs",
+      "bytes": 7847,
+      "sha256": "a7cd87033f02e6be66999c4ccf413c61caf42c2b8a05be7bb0ff95f50dc92aa8",
+      "origin": "/private/tmp/fielded-commercial-tests/commercial.test.mjs"
+    },
+    {
+      "path": "review-tests/historical-beta-tests/ai-access-diagnostics.cjs",
+      "bytes": 1599,
+      "sha256": "b8c0f3b817db2278a5e5f0fec81798f939f675ff6d4e119396f9bd77b2b89456",
+      "origin": "/private/tmp/fielded-review-historical/tests/ai-access-diagnostics.cjs"
+    },
+    {
+      "path": "review-tests/historical-beta-tests/ai-budget.mjs",
+      "bytes": 2044,
+      "sha256": "5d77dd66455c198c0b2bbdbe7db7ff0c679cb6fcd02baa411725f64255a13d0b",
+      "origin": "/private/tmp/fielded-review-historical/tests/ai-budget.mjs"
+    },
+    {
+      "path": "review-tests/historical-beta-tests/ai-evidence-routing.cjs",
+      "bytes": 4748,
+      "sha256": "a3642f3164c6a3532730093c539d5a536481ab928538cf656b7d87ca8c3ece18",
+      "origin": "/private/tmp/fielded-review-historical/tests/ai-evidence-routing.cjs"
+    },
+    {
+      "path": "review-tests/historical-beta-tests/ai-review-lifecycle.mjs",
+      "bytes": 9296,
+      "sha256": "6ffb007e74d07aad3629873618d23ceecc2ad7ca1c3e221940a583be392ef8e5",
+      "origin": "/private/tmp/fielded-review-historical/tests/ai-review-lifecycle.mjs"
+    },
+    {
+      "path": "review-tests/historical-beta-tests/analysis-approval-hooks.cjs",
+      "bytes": 3052,
+      "sha256": "fad16ad7f734ce8144918e47db09a801a9a33c01974989a6ac433e41ba004567",
+      "origin": "/private/tmp/fielded-review-historical/tests/analysis-approval-hooks.cjs"
+    },
+    {
+      "path": "review-tests/historical-beta-tests/approval-transaction.mjs",
+      "bytes": 3265,
+      "sha256": "1961362cf465a68f2ce6d37e3a36c183029ef5593334e26527603456cdf14b3a",
+      "origin": "/private/tmp/fielded-review-historical/tests/approval-transaction.mjs"
+    },
+    {
+      "path": "review-tests/historical-beta-tests/attachment-completion.cjs",
+      "bytes": 1348,
+      "sha256": "71b9a1eb6a25573cd1bcebfe3dfa39051fffc2f49afc4e8f4813cc16a135635e",
+      "origin": "/private/tmp/fielded-review-historical/tests/attachment-completion.cjs"
+    },
+    {
+      "path": "review-tests/historical-beta-tests/audience.cjs",
+      "bytes": 1462,
+      "sha256": "0ba32df91a8b15b20aae75b93edfa51de76f2ae4304c302c0a599b1f244d1ec5",
+      "origin": "/private/tmp/fielded-review-historical/tests/audience.cjs"
+    },
+    {
+      "path": "review-tests/historical-beta-tests/beta-admin-permissions.mjs",
+      "bytes": 2135,
+      "sha256": "ed2d78a17343eb5b56a75b3c169f4062a16e1a4ec904e3b97f30c24fb8fa1067",
+      "origin": "/private/tmp/fielded-review-historical/tests/beta-admin-permissions.mjs"
+    },
+    {
+      "path": "review-tests/historical-beta-tests/beta-admin.cjs",
+      "bytes": 5329,
+      "sha256": "e70fc75a5945b7e97cc1c950d4e417a2e18df0575d25e349300b27f4ffda4bb3",
+      "origin": "/private/tmp/fielded-review-historical/tests/beta-admin.cjs"
+    },
+    {
+      "path": "review-tests/historical-beta-tests/closed-assignments.cjs",
+      "bytes": 2681,
+      "sha256": "af7d24944876ef312eb3eb2e69788ad3837c40e14b9db271d4330f56368f27e4",
+      "origin": "/private/tmp/fielded-review-historical/tests/closed-assignments.cjs"
+    },
+    {
+      "path": "review-tests/historical-beta-tests/conversation-access.mjs",
+      "bytes": 6500,
+      "sha256": "86d7941b1ceec6c148b60d9ef5a4ccd42e3e35943bcc6d4687d299c649fde36e",
+      "origin": "/private/tmp/fielded-review-historical/tests/conversation-access.mjs"
+    },
+    {
+      "path": "review-tests/historical-beta-tests/evidence-navigation.cjs",
+      "bytes": 12097,
+      "sha256": "ef8b82eb428d593b87320da02cd8dc7a5b85cc5ef150628df0fe4c628cc8ba09",
+      "origin": "/private/tmp/fielded-review-historical/tests/evidence-navigation.cjs"
+    },
+    {
+      "path": "review-tests/historical-beta-tests/gemini-budget-transport.cjs",
+      "bytes": 3442,
+      "sha256": "a2d78e773f2b9dcb6df355313252a90a6fe62d3da3222c8205949671b7c072df",
+      "origin": "/private/tmp/fielded-review-historical/tests/gemini-budget-transport.cjs"
+    },
+    {
+      "path": "review-tests/historical-beta-tests/gemini-provider.cjs",
+      "bytes": 3377,
+      "sha256": "90eb1b314ce08f4c27e40055c07b8c4144194783fc7832d091eadb9d3d51dc33",
+      "origin": "/private/tmp/fielded-review-historical/tests/gemini-provider.cjs"
+    },
+    {
+      "path": "review-tests/historical-beta-tests/gemini-sdk-protocol.cjs",
+      "bytes": 2789,
+      "sha256": "c9fde957694067aa5c50f9fe8c39e5c387c01f40def4718aca95005e881c40ed",
+      "origin": "/private/tmp/fielded-review-historical/tests/gemini-sdk-protocol.cjs"
+    },
+    {
+      "path": "review-tests/historical-beta-tests/gemini36-budget.mjs",
+      "bytes": 2431,
+      "sha256": "23aac99ca5cc0647d49bdfac5c1992302f158685de17750512110e8f38a75a09",
+      "origin": "/private/tmp/fielded-review-historical/tests/gemini36-budget.mjs"
+    },
+    {
+      "path": "review-tests/historical-beta-tests/investigation-routing.mjs",
+      "bytes": 10626,
+      "sha256": "efa8112a75906080ed192d2708450bf2cd83ecf56fe598d767902e5f32930802",
+      "origin": "/private/tmp/fielded-review-historical/tests/investigation-routing.mjs"
+    },
+    {
+      "path": "review-tests/historical-beta-tests/invitation-account-switch.cjs",
+      "bytes": 3780,
+      "sha256": "dbdd9601ee822b72db26d38c7fbc91d83c77cbab74da128de64061f185ea2846",
+      "origin": "/private/tmp/fielded-review-historical/tests/invitation-account-switch.cjs"
+    },
+    {
+      "path": "review-tests/historical-beta-tests/invitation-security.mjs",
+      "bytes": 5163,
+      "sha256": "005ca0856af9fbb70b3876693284cfca2faefdf397b5c8dd9622b2c3ef1c17a8",
+      "origin": "/private/tmp/fielded-review-historical/tests/invitation-security.mjs"
+    },
+    {
+      "path": "review-tests/historical-beta-tests/mission-analysis-queue.mjs",
+      "bytes": 10978,
+      "sha256": "efafecf11671b24cbd15f50fc4a71a288d908c2dec716a53c9d4e23d2899337f",
+      "origin": "/private/tmp/fielded-review-historical/tests/mission-analysis-queue.mjs"
+    },
+    {
+      "path": "review-tests/historical-beta-tests/mission-analysis-worker.cjs",
+      "bytes": 7009,
+      "sha256": "d07ccfb484280507f8e48b2bb218e0b937173227635fa47ec97705b0902e63f8",
+      "origin": "/private/tmp/fielded-review-historical/tests/mission-analysis-worker.cjs"
+    },
+    {
+      "path": "review-tests/historical-beta-tests/mission-launch-action.cjs",
+      "bytes": 4256,
+      "sha256": "26eb2ad9c7f232b7349bc782d42ad85f243482428a8b02a7e0d882a8d9964165",
+      "origin": "/private/tmp/fielded-review-historical/tests/mission-launch-action.cjs"
+    },
+    {
+      "path": "review-tests/historical-beta-tests/mission-launch-form.cjs",
+      "bytes": 6063,
+      "sha256": "8f5154133540757724ecc50334a1a630368f7dd65beffc1944d53a4133c99ed7",
+      "origin": "/private/tmp/fielded-review-historical/tests/mission-launch-form.cjs"
+    },
+    {
+      "path": "review-tests/historical-beta-tests/mission-launch.mjs",
+      "bytes": 6758,
+      "sha256": "ee09ebbcc91ab4229ae91d97f30d9d269a29aeaf2bb1c08c2b7c57c2dfce4027",
+      "origin": "/private/tmp/fielded-review-historical/tests/mission-launch.mjs"
+    },
+    {
+      "path": "review-tests/historical-beta-tests/organisation-directory.mjs",
+      "bytes": 11656,
+      "sha256": "e36079a45cf2ea63c3669c5669de80a2013b82227adbdbbdbd814f8e1f1b1c65",
+      "origin": "/private/tmp/fielded-review-historical/tests/organisation-directory.mjs"
+    },
+    {
+      "path": "review-tests/historical-beta-tests/policy-communications.mjs",
+      "bytes": 9380,
+      "sha256": "504ee3572f2f85e121583fbc3b9cbe8b7684f7695e25989cb25cbb1ee54363bd",
+      "origin": "/private/tmp/fielded-review-historical/tests/policy-communications.mjs"
+    },
+    {
+      "path": "review-tests/historical-beta-tests/private-imports.cjs",
+      "bytes": 2466,
+      "sha256": "84c5be9b2d23cf5eb82186aedd54da263f7bd9397b0bc267f13a240df8d97888",
+      "origin": "/private/tmp/fielded-review-historical/tests/private-imports.cjs"
+    },
+    {
+      "path": "review-tests/historical-beta-tests/profile-identity.cjs",
+      "bytes": 4563,
+      "sha256": "b9ae1cab982b4d6a31fe155e144584b5d30429e80576b9caecf685b58889914f",
+      "origin": "/private/tmp/fielded-review-historical/tests/profile-identity.cjs"
+    },
+    {
+      "path": "review-tests/historical-beta-tests/publishing-actions.cjs",
+      "bytes": 2927,
+      "sha256": "afa270230a7a0312c5f7d1f6ecb68613f8edea4af52ca70c6f1a824a355d8abc",
+      "origin": "/private/tmp/fielded-review-historical/tests/publishing-actions.cjs"
+    },
+    {
+      "path": "review-tests/historical-beta-tests/publishing-permissions.mjs",
+      "bytes": 13190,
+      "sha256": "afd96a16c6032c67f4f81f7139e94b3cc8dd3dccac98eaba5e0e189317363140",
+      "origin": "/private/tmp/fielded-review-historical/tests/publishing-permissions.mjs"
+    },
+    {
+      "path": "review-tests/historical-beta-tests/publishing-policy-route.cjs",
+      "bytes": 3308,
+      "sha256": "bc521a4535717addfd7886ee0c97414c3e587796cb99905d0cdaf72e5be8612f",
+      "origin": "/private/tmp/fielded-review-historical/tests/publishing-policy-route.cjs"
+    },
+    {
+      "path": "review-tests/historical-beta-tests/render-ai-review.cjs",
+      "bytes": 2624,
+      "sha256": "03c058166bdf056302ae38128ffcdc06a0cfc0f5a9888b76d999f99f990ff44f",
+      "origin": "/private/tmp/fielded-review-historical/tests/render-ai-review.cjs"
+    },
+    {
+      "path": "review-tests/historical-beta-tests/render-beta-admin.cjs",
+      "bytes": 3008,
+      "sha256": "0cee7c6455353d57205ac16baef4d850b765ca801131109f42aad46915fe81d0",
+      "origin": "/private/tmp/fielded-review-historical/tests/render-beta-admin.cjs"
+    },
+    {
+      "path": "review-tests/historical-beta-tests/render-investigations.cjs",
+      "bytes": 4615,
+      "sha256": "b1107d9aa87d6ec030889cf58ca1397c42a316b5b9d57ac83154edc7a538bafe",
+      "origin": "/private/tmp/fielded-review-historical/tests/render-investigations.cjs"
+    },
+    {
+      "path": "review-tests/historical-beta-tests/render-policies.cjs",
+      "bytes": 6989,
+      "sha256": "050c7341d1b99e5a3eca076c18cfbcbc803fbf134dbfc56eaf61e010a668978d",
+      "origin": "/private/tmp/fielded-review-historical/tests/render-policies.cjs"
+    },
+    {
+      "path": "review-tests/historical-beta-tests/render-publishing.cjs",
+      "bytes": 3840,
+      "sha256": "eba0ea013031908de31dda00b08f13c3ae875fc54557c2454154272bd6515615",
+      "origin": "/private/tmp/fielded-review-historical/tests/render-publishing.cjs"
+    },
+    {
+      "path": "review-tests/historical-beta-tests/render-role-portals.cjs",
+      "bytes": 5872,
+      "sha256": "bc6910979572ac3159193ec8161adb56ac1ac01d6732284fef95c4fd7a844d55",
+      "origin": "/private/tmp/fielded-review-historical/tests/render-role-portals.cjs"
+    },
+    {
+      "path": "review-tests/historical-beta-tests/render-structure.cjs",
+      "bytes": 4068,
+      "sha256": "a302ed94838f3679154d60ffc2c6ee612cd2debcf79151ee5063712f3fecb2cb",
+      "origin": "/private/tmp/fielded-review-historical/tests/render-structure.cjs"
+    },
+    {
+      "path": "review-tests/historical-beta-tests/render-workflows.cjs",
+      "bytes": 6994,
+      "sha256": "109a77cee77aa0349ab693a1bc68a8bd2de8a70c22d22adc10f1bae3d80a3f22",
+      "origin": "/private/tmp/fielded-review-historical/tests/render-workflows.cjs"
+    },
+    {
+      "path": "review-tests/historical-beta-tests/safe-redirect.cjs",
+      "bytes": 1099,
+      "sha256": "3b51b063a6566152b4cf109a2b9d619dbc82995411b268200f5c44701ba4fbfb",
+      "origin": "/private/tmp/fielded-review-historical/tests/safe-redirect.cjs"
+    },
+    {
+      "path": "review-tests/historical-beta-tests/signup-action.cjs",
+      "bytes": 2992,
+      "sha256": "490d730adfa294a4be9a9450ab24912bd0d739a9dafe3a5ce2ae4593013dc250",
+      "origin": "/private/tmp/fielded-review-historical/tests/signup-action.cjs"
+    },
+    {
+      "path": "review-tests/historical-beta-tests/summary-protocol.cjs",
+      "bytes": 4236,
+      "sha256": "f87e10d0011e5080f4bd2b882c3dab4f08ccfd8bd34bf79329e9ad8016d12f6c",
+      "origin": "/private/tmp/fielded-review-historical/tests/summary-protocol.cjs"
+    },
+    {
+      "path": "review-tests/historical-beta-tests/summary-retry.cjs",
+      "bytes": 3241,
+      "sha256": "96b12cf3e12b2482a6f5e70a7f81483a7a99c846f0c168c46f52146b30e08d58",
+      "origin": "/private/tmp/fielded-review-historical/tests/summary-retry.cjs"
+    },
+    {
+      "path": "review-tests/historical-beta-tests/support/load-audience.cjs",
+      "bytes": 477,
+      "sha256": "9e38446c243b9bfdc9d9b92a8ab5985d248ce454c4e78e2678a7deb96a054c75",
+      "origin": "/private/tmp/fielded-review-historical/tests/support/load-audience.cjs"
+    },
+    {
+      "path": "review-tests/historical-beta-tests/synthesis-transaction.mjs",
+      "bytes": 3766,
+      "sha256": "e7df90a3fd3326d930d0901df480bf1ce36f0390209739a67bf263cfc4260c01",
+      "origin": "/private/tmp/fielded-review-historical/tests/synthesis-transaction.mjs"
+    },
+    {
+      "path": "review-tests/historical-beta-tests/synthesis-unavailable.cjs",
+      "bytes": 2400,
+      "sha256": "c9a1ce77bfe01b7b046b4ccded886a75851f3fad0f89870a2deaf01893fcb7fa",
+      "origin": "/private/tmp/fielded-review-historical/tests/synthesis-unavailable.cjs"
+    },
+    {
+      "path": "review-tests/historical-beta-tests/work-routing.mjs",
+      "bytes": 8786,
+      "sha256": "a28037e7517f1f115a38146a4b18bfb31bde4b0c2ba83ed91722d311e58efac6",
+      "origin": "/private/tmp/fielded-review-historical/tests/work-routing.mjs"
+    },
+    {
+      "path": "review-tests/historical-beta-tests/workflow-controls.cjs",
+      "bytes": 3552,
+      "sha256": "bbd2e6df8d536ee9b5a945602c88111e1dcb524638792f08c7978773697c3caf",
+      "origin": "/private/tmp/fielded-review-historical/tests/workflow-controls.cjs"
+    },
+    {
+      "path": "review-tests/historical-beta-tests/workspace-auth.cjs",
+      "bytes": 2711,
+      "sha256": "c79e4d3679d256400c646dbe0779e040d3199b7e08488019891d25bc040aae46",
+      "origin": "/private/tmp/fielded-review-historical/tests/workspace-auth.cjs"
+    },
+    {
+      "path": "review-tests/historical-beta-tests/workspace-recovery.cjs",
+      "bytes": 4889,
+      "sha256": "d45d106897d3f1fa50c20120011cfae0af376604554e7b1249cb46b565308eaa",
+      "origin": "/private/tmp/fielded-review-historical/tests/workspace-recovery.cjs"
+    },
+    {
+      "path": "review-tests/package.json",
+      "bytes": 61,
+      "sha256": "75f4c22d5c1ce7abb38b20aeb269068668ebbc1545e45dc54284f476586abb44",
+      "origin": "/private/tmp/fielded-commercial-tests/package.json"
+    },
+    {
+      "path": "review-tests/pnpm-lock.yaml",
+      "bytes": 425,
+      "sha256": "e03c3b8f5281617b6c4cbbefd12ce565fb167d87028fa9e52a3185d97497acf0",
+      "origin": "/private/tmp/fielded-commercial-tests/pnpm-lock.yaml"
+    },
+    {
+      "path": "review-tests/use-case-grid.mjs",
+      "bytes": 2677,
+      "sha256": "83457eaf6ec677d910f1068aeb7a57a27e94d41ce091ac2128dea1303a74df09",
+      "origin": "/private/tmp/fielded-grid-qa.mjs"
+    },
+    {
+      "path": "website/.gitignore",
+      "bytes": 91,
+      "sha256": "8a6ff27dbeaa904dbddd3026f5be4c46cf490a7f683985b87d1b0e9c12060a9d",
+      "origin": "/private/tmp/fielded-vercel-website/.gitignore"
+    },
+    {
+      "path": "website/.oxfmtrc.json",
+      "bytes": 21,
+      "sha256": "c73ddb01addeee4f46272e2cf0e57d166043f71ef13a71480cd88a261d8c0307",
+      "origin": "/private/tmp/fielded-vercel-website/.oxfmtrc.json"
+    },
+    {
+      "path": "website/.oxlintrc.json",
+      "bytes": 110,
+      "sha256": "2aa2a07d1aaa86362dfd0e19e3ca3b9572d51595e9955704f36cc7e484d9e61b",
+      "origin": "/private/tmp/fielded-vercel-website/.oxlintrc.json"
+    },
+    {
+      "path": "website/app/case-gallery.css",
+      "bytes": 7262,
+      "sha256": "f9795d332b2b7fe8a40a3b8ec23286900bbebdc682c82788651784a5e5315a08",
+      "origin": "/private/tmp/fielded-vercel-website/app/case-gallery.css"
+    },
+    {
+      "path": "website/app/dialogue-paths.css",
+      "bytes": 8013,
+      "sha256": "9cf53cdf2acee9647d1319ba852e0f1a5cbde811e71c7a552ee3d04264fc8970",
+      "origin": "/private/tmp/fielded-vercel-website/app/dialogue-paths.css"
+    },
+    {
+      "path": "website/app/globals.css",
+      "bytes": 32236,
+      "sha256": "d560625ffe8892fb0f600e233c9e610722961c31826814ea4e58af73a9eedf20",
+      "origin": "/private/tmp/fielded-vercel-website/app/globals.css"
+    },
+    {
+      "path": "website/app/layout.tsx",
+      "bytes": 847,
+      "sha256": "da6e8de907d22f85dee90a28fd4bbf085f472bea11f50ae3466e00bece4777c6",
+      "origin": "/private/tmp/fielded-vercel-website/app/layout.tsx"
+    },
+    {
+      "path": "website/app/narrative.css",
+      "bytes": 21204,
+      "sha256": "fcda7d0ea9dc0ae4f2db138af2a7d443b4c0435df76c7894756673a40f118b5f",
+      "origin": "/private/tmp/fielded-vercel-website/app/narrative.css"
+    },
+    {
+      "path": "website/app/office-story.css",
+      "bytes": 13059,
+      "sha256": "08de3db4be24093f51d6f99af26e1cf9a895510df1d39ae16a6ef9fe78de02e9",
+      "origin": "/private/tmp/fielded-vercel-website/app/office-story.css"
+    },
+    {
+      "path": "website/app/page.tsx",
+      "bytes": 3636,
+      "sha256": "34a1c6a769f1241a0fc82ddb8d61e7da8687c585187801a82cdcb20e074e5c6f",
+      "origin": "/private/tmp/fielded-vercel-website/app/page.tsx"
+    },
+    {
+      "path": "website/app/pricing.css",
+      "bytes": 3078,
+      "sha256": "1fc5833f856e68d73d950761f7642984fd70ac96da55493db34a1e6fd4ef3a73",
+      "origin": "/private/tmp/fielded-vercel-website/app/pricing.css"
+    },
+    {
+      "path": "website/app/pricing/page.tsx",
+      "bytes": 4739,
+      "sha256": "e60611dbdf2e3f18d25a384ff883403ca3d4290c9d1e31acd560b99f9a34e6a9",
+      "origin": "/private/tmp/fielded-vercel-website/app/pricing/page.tsx"
+    },
+    {
+      "path": "website/app/story-clarity.css",
+      "bytes": 4315,
+      "sha256": "eeeeb43824efbed360eac3951acfb5eb959c1c24fd58f1d2ea6641fd735af290",
+      "origin": "/private/tmp/fielded-vercel-website/app/story-clarity.css"
+    },
+    {
+      "path": "website/app/use-cases.css",
+      "bytes": 6690,
+      "sha256": "be335bbc7e424be521036887045b506ad0a298da21dcdb499df5998aa8c4ecd6",
+      "origin": "/private/tmp/fielded-vercel-website/app/use-cases.css"
+    },
+    {
+      "path": "website/app/use-cases/page.tsx",
+      "bytes": 2925,
+      "sha256": "0ae3d0a231b3f7bc3b67ee17cf3e5fd761c04bb9169a951e134ea623114d0323",
+      "origin": "/private/tmp/fielded-vercel-website/app/use-cases/page.tsx"
+    },
+    {
+      "path": "website/components.json",
+      "bytes": 516,
+      "sha256": "9928283696d86836422959a2c520df83a718d31ffbcab533a14ca8dca2c8d475",
+      "origin": "/private/tmp/fielded-vercel-website/components.json"
+    },
+    {
+      "path": "website/components/building-scene.tsx",
+      "bytes": 15362,
+      "sha256": "ad7137c0c3634d1fafa1fb0b20e9cbb8c6be8bc282daaa0efac25f2d2fe5e64f",
+      "origin": "/private/tmp/fielded-vercel-website/components/building-scene.tsx"
+    },
+    {
+      "path": "website/components/dialogue-paths.tsx",
+      "bytes": 5299,
+      "sha256": "8ed71cb2a0fc7bb0a3e4bd2c77c979c90c57e110f4d0aaf8a1d3537dbdc6d110",
+      "origin": "/private/tmp/fielded-vercel-website/components/dialogue-paths.tsx"
+    },
+    {
+      "path": "website/components/site-sections.tsx",
+      "bytes": 13555,
+      "sha256": "1a47eb5005ee2a153b7ef1d967c6e8fdf2bb0eb1e484cb6ac5d94169e91db2a7",
+      "origin": "/private/tmp/fielded-vercel-website/components/site-sections.tsx"
+    },
+    {
+      "path": "website/components/story.tsx",
+      "bytes": 8653,
+      "sha256": "0c15730f5da6b6b1c5adf31052f6faba60fb818c34262569db80b042a030c171",
+      "origin": "/private/tmp/fielded-vercel-website/components/story.tsx"
+    },
+    {
+      "path": "website/components/ui/accordion.tsx",
+      "bytes": 2664,
+      "sha256": "33e1c60ba503f4eb36f9a8b1f68b236174b11656d8efea6bac65abddda2f9019",
+      "origin": "/private/tmp/fielded-vercel-website/components/ui/accordion.tsx"
+    },
+    {
+      "path": "website/components/ui/alert-dialog.tsx",
+      "bytes": 5301,
+      "sha256": "ed0f1fc432bca4c72f9dd8741ae2268a00d2d3429ff1149bf463c4271b13d8e9",
+      "origin": "/private/tmp/fielded-vercel-website/components/ui/alert-dialog.tsx"
+    },
+    {
+      "path": "website/components/ui/alert.tsx",
+      "bytes": 2060,
+      "sha256": "e760c470414c9e617d7292094146d906352fee3b1526b790a611d4a118e79196",
+      "origin": "/private/tmp/fielded-vercel-website/components/ui/alert.tsx"
+    },
+    {
+      "path": "website/components/ui/aspect-ratio.tsx",
+      "bytes": 406,
+      "sha256": "b7fb499905e441a0602392ce118828425ad059079060109694d01f9fac00ad20",
+      "origin": "/private/tmp/fielded-vercel-website/components/ui/aspect-ratio.tsx"
+    },
+    {
+      "path": "website/components/ui/attachment.tsx",
+      "bytes": 6132,
+      "sha256": "dcb9e899f1322158f016d75c400fa8cce9b797ea49bec65528bac686cee2ec5c",
+      "origin": "/private/tmp/fielded-vercel-website/components/ui/attachment.tsx"
+    },
+    {
+      "path": "website/components/ui/avatar.tsx",
+      "bytes": 3056,
+      "sha256": "342f32b683937b826cdff2999d5e3057836d459aa43eadb0c3538b818d195b9a",
+      "origin": "/private/tmp/fielded-vercel-website/components/ui/avatar.tsx"
+    },
+    {
+      "path": "website/components/ui/badge.tsx",
+      "bytes": 1934,
+      "sha256": "5706189b86e8670499fb33f37147dd6f65c39d59eef5211e34157f2952c35e32",
+      "origin": "/private/tmp/fielded-vercel-website/components/ui/badge.tsx"
+    },
+    {
+      "path": "website/components/ui/breadcrumb.tsx",
+      "bytes": 2602,
+      "sha256": "b28b76d6f8d0feafbbeff2220cf83f9a6b03d8c81f0145b3af4c7d19933ab2c0",
+      "origin": "/private/tmp/fielded-vercel-website/components/ui/breadcrumb.tsx"
+    },
+    {
+      "path": "website/components/ui/bubble.tsx",
+      "bytes": 4828,
+      "sha256": "dfb9f52ae3b89e4a419b336c3893ab6fb658fc324fb402759d878d54e3b2db5a",
+      "origin": "/private/tmp/fielded-vercel-website/components/ui/bubble.tsx"
+    },
+    {
+      "path": "website/components/ui/button-group.tsx",
+      "bytes": 2494,
+      "sha256": "79ad8fb6644a775cc49131c1aa737ca26cae6a563beec0fa52ef6e8d85202fab",
+      "origin": "/private/tmp/fielded-vercel-website/components/ui/button-group.tsx"
+    },
+    {
+      "path": "website/components/ui/button.tsx",
+      "bytes": 3247,
+      "sha256": "081d2a1cb4f3aec636a6894d9eff4e90d476d5db85b82d0399c1f4d18517112e",
+      "origin": "/private/tmp/fielded-vercel-website/components/ui/button.tsx"
+    },
+    {
+      "path": "website/components/ui/calendar.tsx",
+      "bytes": 8503,
+      "sha256": "e7bc682eff8f2215e6b0aab40d1afb7ee927c5f5bef348ccff207631b9261658",
+      "origin": "/private/tmp/fielded-vercel-website/components/ui/calendar.tsx"
+    },
+    {
+      "path": "website/components/ui/card.tsx",
+      "bytes": 2645,
+      "sha256": "625fce5e16577a45108a86d7afcd70b8931cb2032abe0d6a3faf1010f666d672",
+      "origin": "/private/tmp/fielded-vercel-website/components/ui/card.tsx"
+    },
+    {
+      "path": "website/components/ui/carousel.tsx",
+      "bytes": 5727,
+      "sha256": "7444126492d4e0b85b1270f0d83a0955350fa95b3d3fb7b88edc2a5c2b4e5d14",
+      "origin": "/private/tmp/fielded-vercel-website/components/ui/carousel.tsx"
+    },
+    {
+      "path": "website/components/ui/chart.tsx",
+      "bytes": 10581,
+      "sha256": "56ab0e0b41f0cc7902414e046ea4f710bdbf0b756028672ea8c7e5137a278f2b",
+      "origin": "/private/tmp/fielded-vercel-website/components/ui/chart.tsx"
+    },
+    {
+      "path": "website/components/ui/checkbox.tsx",
+      "bytes": 1538,
+      "sha256": "56b2869e5478f38238e6a3d8aefabfbe8af565b38b2ffad06466487b3eacf154",
+      "origin": "/private/tmp/fielded-vercel-website/components/ui/checkbox.tsx"
+    },
+    {
+      "path": "website/components/ui/collapsible.tsx",
+      "bytes": 664,
+      "sha256": "3fdf7ef1ca89c4d85de5ecbb25813d0f572003a53b021baf43c5f3523e48ec97",
+      "origin": "/private/tmp/fielded-vercel-website/components/ui/collapsible.tsx"
+    },
+    {
+      "path": "website/components/ui/combobox.tsx",
+      "bytes": 9135,
+      "sha256": "282041e2e8c52cc12e7bbc717bbd3f8c9c5ba18e7fa75b97053bc79687e1181e",
+      "origin": "/private/tmp/fielded-vercel-website/components/ui/combobox.tsx"
+    },
+    {
+      "path": "website/components/ui/command.tsx",
+      "bytes": 5029,
+      "sha256": "9c1eae65aa105935a34c6b736f673b71a2ef939dde53dce29d986221edbf1f9f",
+      "origin": "/private/tmp/fielded-vercel-website/components/ui/command.tsx"
+    },
+    {
+      "path": "website/components/ui/context-menu.tsx",
+      "bytes": 8166,
+      "sha256": "05c3646b452f5e3b9eb952eeba3d90657606d2b0875cb77652cdb5eadba0eb5c",
+      "origin": "/private/tmp/fielded-vercel-website/components/ui/context-menu.tsx"
+    },
+    {
+      "path": "website/components/ui/dialog.tsx",
+      "bytes": 4087,
+      "sha256": "8bc85def62538b4e62e8530c6b0ba167a192c38519c05f104bf6e10de73b811f",
+      "origin": "/private/tmp/fielded-vercel-website/components/ui/dialog.tsx"
+    },
+    {
+      "path": "website/components/ui/direction.tsx",
+      "bytes": 105,
+      "sha256": "2dea8a95accb1723db2454ccc858697d5b1f1454568cf4da5e8fcbd0cf7cc1ee",
+      "origin": "/private/tmp/fielded-vercel-website/components/ui/direction.tsx"
+    },
+    {
+      "path": "website/components/ui/drawer.tsx",
+      "bytes": 11396,
+      "sha256": "b7ac53d0e5d1fed25fc3f2ac5f5a36e247ca684c677ac376829fa8a7c039b79e",
+      "origin": "/private/tmp/fielded-vercel-website/components/ui/drawer.tsx"
+    },
+    {
+      "path": "website/components/ui/dropdown-menu.tsx",
+      "bytes": 8809,
+      "sha256": "efc088f3d79f64cf96e222701ae23dcf385b53947b3cd57ffb7be6f5dadcbfe2",
+      "origin": "/private/tmp/fielded-vercel-website/components/ui/dropdown-menu.tsx"
+    },
+    {
+      "path": "website/components/ui/empty.tsx",
+      "bytes": 2415,
+      "sha256": "bf54bac4881b79f6a53f55e70c18640f58a058add88aed763c71be35c4f64f59",
+      "origin": "/private/tmp/fielded-vercel-website/components/ui/empty.tsx"
+    },
+    {
+      "path": "website/components/ui/field.tsx",
+      "bytes": 6303,
+      "sha256": "79023ca89aae39f9cffa83a9483c9c672099b4547cc821486283db61c6ae9327",
+      "origin": "/private/tmp/fielded-vercel-website/components/ui/field.tsx"
+    },
+    {
+      "path": "website/components/ui/hover-card.tsx",
+      "bytes": 1863,
+      "sha256": "d8cb7270c5893213fc00b5f270f9bc461e2d7ce5b81f77b8778253a1aeda6a2c",
+      "origin": "/private/tmp/fielded-vercel-website/components/ui/hover-card.tsx"
+    },
+    {
+      "path": "website/components/ui/input-group.tsx",
+      "bytes": 5289,
+      "sha256": "2e65ddecb4401220be374cc6cfc42344538266cafeb2e590b3c760c7ed6b490a",
+      "origin": "/private/tmp/fielded-vercel-website/components/ui/input-group.tsx"
+    },
+    {
+      "path": "website/components/ui/input-otp.tsx",
+      "bytes": 2558,
+      "sha256": "867f568259caac95f682d128d72e681b3fe7c31701a396eacc9284401d917a6a",
+      "origin": "/private/tmp/fielded-vercel-website/components/ui/input-otp.tsx"
+    },
+    {
+      "path": "website/components/ui/input.tsx",
+      "bytes": 1046,
+      "sha256": "6763c86c34c1c07826386d376f5da8fe2e41585bff3615716d5da88915e088d8",
+      "origin": "/private/tmp/fielded-vercel-website/components/ui/input.tsx"
+    },
+    {
+      "path": "website/components/ui/item.tsx",
+      "bytes": 4888,
+      "sha256": "9c5e45e6c4aae5b9c4c1304e1f1208d32681ab616a6e0de9de6e0d6b22690592",
+      "origin": "/private/tmp/fielded-vercel-website/components/ui/item.tsx"
+    },
+    {
+      "path": "website/components/ui/kbd.tsx",
+      "bytes": 842,
+      "sha256": "bdfb38a4f7b9b604e196b5cee0d86f12311dae72946f0dbf5928c8ad0638178f",
+      "origin": "/private/tmp/fielded-vercel-website/components/ui/kbd.tsx"
+    },
+    {
+      "path": "website/components/ui/label.tsx",
+      "bytes": 524,
+      "sha256": "e4a6fb662c44a44c468d16d79d02b3a3e5bf7b77bd50aef1e586c4d9613df0f6",
+      "origin": "/private/tmp/fielded-vercel-website/components/ui/label.tsx"
+    },
+    {
+      "path": "website/components/ui/marker.tsx",
+      "bytes": 1962,
+      "sha256": "cd1e872384cf5001e48b4dc3cc2bb011eba9700561d41c83a89e872b60baf175",
+      "origin": "/private/tmp/fielded-vercel-website/components/ui/marker.tsx"
+    },
+    {
+      "path": "website/components/ui/menubar.tsx",
+      "bytes": 8315,
+      "sha256": "a3715f8e8b78261f5784929c532e100759c58e831c91e842438730797bc9a124",
+      "origin": "/private/tmp/fielded-vercel-website/components/ui/menubar.tsx"
+    },
+    {
+      "path": "website/components/ui/message-scroller.tsx",
+      "bytes": 4070,
+      "sha256": "9512c586d1b0885cf3ae4f1c3dd4281cbdfec7428fe98ff48a66b4ba2a7319f4",
+      "origin": "/private/tmp/fielded-vercel-website/components/ui/message-scroller.tsx"
+    },
+    {
+      "path": "website/components/ui/message.tsx",
+      "bytes": 2246,
+      "sha256": "2fedcc64ed8563a44f6697615e77574d96f819fe6e5e2fa8a555e30f8ed6bbd7",
+      "origin": "/private/tmp/fielded-vercel-website/components/ui/message.tsx"
+    },
+    {
+      "path": "website/components/ui/native-select.tsx",
+      "bytes": 2133,
+      "sha256": "3aafb74b98c039dae4eb2c64c47ec6f5d61fdc888c057de47550346f702f434b",
+      "origin": "/private/tmp/fielded-vercel-website/components/ui/native-select.tsx"
+    },
+    {
+      "path": "website/components/ui/navigation-menu.tsx",
+      "bytes": 7436,
+      "sha256": "c8e64bf5241145b512ae18f1062da8275691edf927736496a3860bec76ad6fa1",
+      "origin": "/private/tmp/fielded-vercel-website/components/ui/navigation-menu.tsx"
+    },
+    {
+      "path": "website/components/ui/pagination.tsx",
+      "bytes": 2928,
+      "sha256": "1f3c1713e8824cca7c3c0edacf9da7b0114bfda58640771b8fe0bc6179b370ce",
+      "origin": "/private/tmp/fielded-vercel-website/components/ui/pagination.tsx"
+    },
+    {
+      "path": "website/components/ui/popover.tsx",
+      "bytes": 2586,
+      "sha256": "7376624438588e2d64b6e0c5cdf82cbc5fd4530bbcf1f0235c5f3ee08d12e877",
+      "origin": "/private/tmp/fielded-vercel-website/components/ui/popover.tsx"
+    },
+    {
+      "path": "website/components/ui/progress.tsx",
+      "bytes": 1751,
+      "sha256": "0d8ddec9731940e104b851cf3ac67d2fa8589b289824317a9e8f326e090ba65a",
+      "origin": "/private/tmp/fielded-vercel-website/components/ui/progress.tsx"
+    },
+    {
+      "path": "website/components/ui/radio-group.tsx",
+      "bytes": 1843,
+      "sha256": "43f2d6c2f5bdd4a26c57d93e6f141be20472f9bb8777d9a0d61cd8a5e281a999",
+      "origin": "/private/tmp/fielded-vercel-website/components/ui/radio-group.tsx"
+    },
+    {
+      "path": "website/components/ui/resizable.tsx",
+      "bytes": 1681,
+      "sha256": "ea7b85817d4dc70866e0bcf15264e7e1bd7e1893eb4404261fbc23a4d6ff9029",
+      "origin": "/private/tmp/fielded-vercel-website/components/ui/resizable.tsx"
+    },
+    {
+      "path": "website/components/ui/scroll-area.tsx",
+      "bytes": 1632,
+      "sha256": "730c4cc49f8f1b705eb1389cd32c774056a0a2a7a48a9b092cbe44c608be3a0b",
+      "origin": "/private/tmp/fielded-vercel-website/components/ui/scroll-area.tsx"
+    },
+    {
+      "path": "website/components/ui/select.tsx",
+      "bytes": 6700,
+      "sha256": "45489c502a21fdd5271481d64ad8f762181c9653d8d26bdc6f75450b78c3c852",
+      "origin": "/private/tmp/fielded-vercel-website/components/ui/select.tsx"
+    },
+    {
+      "path": "website/components/ui/separator.tsx",
+      "bytes": 551,
+      "sha256": "92ad5065f03d7edc98f367e729f3ec84ece1d99ee8cd0d3a8137f266d4ab3d8a",
+      "origin": "/private/tmp/fielded-vercel-website/components/ui/separator.tsx"
+    },
+    {
+      "path": "website/components/ui/sheet.tsx",
+      "bytes": 4446,
+      "sha256": "adb432b6f9d7a4733caa45ba8bf510a8a7ff0f6d0dd3aa1f013959fb61268234",
+      "origin": "/private/tmp/fielded-vercel-website/components/ui/sheet.tsx"
+    },
+    {
+      "path": "website/components/ui/sidebar.tsx",
+      "bytes": 21779,
+      "sha256": "aa3322ca63f098aa1d2abf750f9d097da07362fce25939357f2cefc9b6a03988",
+      "origin": "/private/tmp/fielded-vercel-website/components/ui/sidebar.tsx"
+    },
+    {
+      "path": "website/components/ui/skeleton.tsx",
+      "bytes": 278,
+      "sha256": "4c342102b2bbf5bd8c04fa151fe5c13c42faee2f9587a3586c27322020ca35d1",
+      "origin": "/private/tmp/fielded-vercel-website/components/ui/skeleton.tsx"
+    },
+    {
+      "path": "website/components/ui/slider.tsx",
+      "bytes": 1879,
+      "sha256": "af657e73d672f4dd205f19abf151d21a172cf36abfdca49fd7014a20e12367a9",
+      "origin": "/private/tmp/fielded-vercel-website/components/ui/slider.tsx"
+    },
+    {
+      "path": "website/components/ui/spinner.tsx",
+      "bytes": 360,
+      "sha256": "8ddbb330e5564a1f53026da36c2322ed4b027687e91a88f63348ab10f26ae0cb",
+      "origin": "/private/tmp/fielded-vercel-website/components/ui/spinner.tsx"
+    },
+    {
+      "path": "website/components/ui/switch.tsx",
+      "bytes": 1818,
+      "sha256": "04b085443a1c6a72d408e6eb7dd45df881ca27814415b81b39f614806b52c8fc",
+      "origin": "/private/tmp/fielded-vercel-website/components/ui/switch.tsx"
+    },
+    {
+      "path": "website/components/ui/table.tsx",
+      "bytes": 2418,
+      "sha256": "88f2ba7877eea7f34a5da18b7fa096eb2c7bed602677ce54f5494b494c5afc2e",
+      "origin": "/private/tmp/fielded-vercel-website/components/ui/table.tsx"
+    },
+    {
+      "path": "website/components/ui/tabs.tsx",
+      "bytes": 3510,
+      "sha256": "dd914d769bc223b5d5ea56839a7752e534eb475f8d2897d5675606c368bbca1f",
+      "origin": "/private/tmp/fielded-vercel-website/components/ui/tabs.tsx"
+    },
+    {
+      "path": "website/components/ui/textarea.tsx",
+      "bytes": 847,
+      "sha256": "7ae7f0f5d907be24658652c771fee1685193102bf3200aafbf578d144d379fbf",
+      "origin": "/private/tmp/fielded-vercel-website/components/ui/textarea.tsx"
+    },
+    {
+      "path": "website/components/ui/toast.tsx",
+      "bytes": 7353,
+      "sha256": "9126b09f47f0b117bf748cf19aaa4987a1f72d0813d10bfc4b4b0128e6439e48",
+      "origin": "/private/tmp/fielded-vercel-website/components/ui/toast.tsx"
+    },
+    {
+      "path": "website/components/ui/toggle-group.tsx",
+      "bytes": 3201,
+      "sha256": "9b006523be0fe3230cd75f7adf78a501829d594fd3506c56c55bb38211ff1850",
+      "origin": "/private/tmp/fielded-vercel-website/components/ui/toggle-group.tsx"
+    },
+    {
+      "path": "website/components/ui/toggle.tsx",
+      "bytes": 1770,
+      "sha256": "6bf41d6f6ffe602c3e28274a82ac029e6ee1331ba3c670a6d814048e1823cc28",
+      "origin": "/private/tmp/fielded-vercel-website/components/ui/toggle.tsx"
+    },
+    {
+      "path": "website/components/ui/tooltip.tsx",
+      "bytes": 2855,
+      "sha256": "b86e51969931c3d62e88d0bdacd1cd8219105dc6d6b6a588a80011bf92e987cd",
+      "origin": "/private/tmp/fielded-vercel-website/components/ui/tooltip.tsx"
+    },
+    {
+      "path": "website/components/use-case-explorer.tsx",
+      "bytes": 12355,
+      "sha256": "61485a69ba1ceb813cdabe62c49c843df891ae41e945388ce6f8238dd514d80c",
+      "origin": "/private/tmp/fielded-vercel-website/components/use-case-explorer.tsx"
+    },
+    {
+      "path": "website/components/workplace-chapter.tsx",
+      "bytes": 10893,
+      "sha256": "95eb2bc0cdc2d9a7357f735da38bc659e2f11586c26126da33a662d371806d5a",
+      "origin": "/private/tmp/fielded-vercel-website/components/workplace-chapter.tsx"
+    },
+    {
+      "path": "website/hooks/use-mobile.ts",
+      "bytes": 585,
+      "sha256": "82bff42ff087bd5dc90a5d17609cc428b8688de92d1333073a839af5ad3c9cbd",
+      "origin": "/private/tmp/fielded-vercel-website/hooks/use-mobile.ts"
+    },
+    {
+      "path": "website/lib/utils.ts",
+      "bytes": 169,
+      "sha256": "9304a861c8673bee09e0f12de31773abbde503b02e59dfd74763ddec2e37cf05",
+      "origin": "/private/tmp/fielded-vercel-website/lib/utils.ts"
+    },
+    {
+      "path": "website/next-env.d.ts",
+      "bytes": 189,
+      "sha256": "a291a6b60536fec0a3b9d4ffd6d51179b463e9bc20281d7499d756813b4c07d5",
+      "origin": "/private/tmp/fielded-vercel-website/next-env.d.ts"
+    },
+    {
+      "path": "website/next.config.ts",
+      "bytes": 122,
+      "sha256": "ac4cf7671b50394d5ec0142ae105249ba6a7921b8439e9bb7501086bba0ff28e",
+      "origin": "/private/tmp/fielded-vercel-website/next.config.ts"
+    },
+    {
+      "path": "website/package.json",
+      "bytes": 1515,
+      "sha256": "8b477e7db06e3adb7354e0257ced38b455c6709135530e8facb795223edcd7bc",
+      "origin": "/private/tmp/fielded-vercel-website/package.json"
+    },
+    {
+      "path": "website/pnpm-lock.yaml",
+      "bytes": 223266,
+      "sha256": "e0e9377a574050b005c494c23338b8c415cf0799d4a135af298f6ee85885e230",
+      "origin": "/private/tmp/fielded-vercel-website/pnpm-lock.yaml"
+    },
+    {
+      "path": "website/pnpm-workspace.yaml",
+      "bytes": 59,
+      "sha256": "368fd9e50a46d5ca8af48e7eb08751063280a5d933be56ed5eed91e304cda90e",
+      "origin": "/private/tmp/fielded-vercel-website/pnpm-workspace.yaml"
+    },
+    {
+      "path": "website/public/favicon.svg",
+      "bytes": 712,
+      "sha256": "e6d2e59b7b5bbb0342e0fb496dfc262decbfe4426bbb7b047aec8d467d1dc6f7",
+      "origin": "/private/tmp/fielded-vercel-website/public/favicon.svg"
+    },
+    {
+      "path": "website/public/fielded-dialogue-hero.png",
+      "bytes": 1610423,
+      "sha256": "cc78f3eb075e79b510c49fd7b611d9954768cab2e208fc518be93fbde4868108",
+      "origin": "/private/tmp/fielded-vercel-website/public/fielded-dialogue-hero.png"
+    },
+    {
+      "path": "website/public/fielded-logo.png",
+      "bytes": 21325,
+      "sha256": "003c03cded9cc8f54267c0e410339ba71d903c3ee3e3f465ef3f18a464f00074",
+      "origin": "/private/tmp/fielded-vercel-website/public/fielded-logo.png"
+    },
+    {
+      "path": "website/public/fielded-workplace.webp",
+      "bytes": 189266,
+      "sha256": "3eadd0e4c3a36c56151745a9b34a73508b1e153bc1e009e99c4a0047a62de89b",
+      "origin": "/private/tmp/fielded-vercel-website/public/fielded-workplace.webp"
+    },
+    {
+      "path": "website/public/fonts/geist-mono.woff2",
+      "bytes": 23108,
+      "sha256": "5f3d6ad60f29d6cb708414ec6887163d63bf197377ef5417d2483ff31ace6c3b",
+      "origin": "/private/tmp/fielded-vercel-website/public/fonts/geist-mono.woff2"
+    },
+    {
+      "path": "website/public/fonts/geist.woff2",
+      "bytes": 29288,
+      "sha256": "9b6f5ff45b278c744b5f379a2c4ecbaf858a842b8eaf82ac8d21b699ca16c608",
+      "origin": "/private/tmp/fielded-vercel-website/public/fonts/geist.woff2"
+    },
+    {
+      "path": "website/tsconfig.json",
+      "bytes": 671,
+      "sha256": "81aca06cd76be09d9b65c7dff6a031c38664263b506ea792a28f36b17be25f2a",
+      "origin": "/private/tmp/fielded-vercel-website/tsconfig.json"
+    },
+    {
+      "path": "website/vercel.json",
+      "bytes": 584,
+      "sha256": "585cf9e78bd05705c37a37e49cb1702428513b9138cc55abbfa7f6bf8efd30c2",
+      "origin": "/private/tmp/fielded-vercel-website/vercel.json"
+    },
+    {
+      "path": "website/vite.config.ts",
+      "bytes": 210,
+      "sha256": "7943b4b7a5bc2998c9b4d0873b7c45f704b394e2e11be88565a3226af8068671",
+      "origin": "/private/tmp/fielded-vercel-website/vite.config.ts"
+    }
+  ]
+}

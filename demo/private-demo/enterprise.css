@@ -1,0 +1,152 @@
+/* Enterprise employee and HR action loop. */
+.employee-nav-count { display: inline-grid; place-items: center; min-width: 19px; height: 19px; margin-left: 5px; padding: 0 5px; border-radius: 9px; background: #eef2ea; color: #526d58; font-size: 9px; }
+.enterprise-work-title, #employee-conversation, #employee-updates, .enterprise-assign-panel { scroll-margin-top: 24px; }
+.enterprise-employee-grid { display: grid; grid-template-columns: minmax(0, 1.65fr) minmax(275px, .75fr); gap: 24px; align-items: start; }
+.enterprise-followups, .employee-updates { min-width: 0; }
+.enterprise-task-card { position: relative; margin-bottom: 12px; padding: 20px; border: 1px solid #d7dedb; border-left-width: 3px; background: white; }
+.enterprise-task-card.enterprise-ready { border-left-color: #ab753f; }
+.enterprise-task-card.enterprise-progress { border-left-color: #4d7683; }
+.enterprise-task-card.enterprise-question { border-left-color: #a85a4e; }
+.enterprise-task-card.enterprise-complete { border-left-color: #668462; }
+.enterprise-task-card-top { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin-bottom: 11px; }
+.enterprise-task-card-top > span { color: #687270; font-size: 10px; font-weight: 700; text-transform: uppercase; }
+.enterprise-task-card-top em, .enterprise-dialog-status > span, .enterprise-action-register article > span { display: inline-flex; align-items: center; min-height: 25px; padding: 5px 8px; border-radius: 3px; font-size: 9px; font-style: normal; font-weight: 700; white-space: nowrap; }
+.enterprise-task-card-top .enterprise-ready, .enterprise-dialog-status .enterprise-ready, .enterprise-action-register .enterprise-ready { color: #74502f; background: #f6ede4; }
+.enterprise-task-card-top .enterprise-progress, .enterprise-dialog-status .enterprise-progress, .enterprise-action-register .enterprise-progress { color: #3c6471; background: #e8f0f2; }
+.enterprise-task-card-top .enterprise-question, .enterprise-dialog-status .enterprise-question, .enterprise-action-register .enterprise-question { color: #87473f; background: #f7eae8; }
+.enterprise-task-card-top .enterprise-complete, .enterprise-dialog-status .enterprise-complete, .enterprise-action-register .enterprise-complete { color: #4c6c4a; background: #eaf2e7; }
+.enterprise-task-card h3 { margin: 0 0 8px; color: #273331; font-size: 18px; }
+.enterprise-task-card > p { max-width: 660px; margin: 0 0 17px; color: #697370; font-size: 12px; line-height: 1.65; }
+.enterprise-task-meta { display: grid; grid-template-columns: 1fr .8fr 1.4fr; gap: 12px; padding: 14px 0; border-top: 1px solid #e8ecea; }
+.enterprise-task-meta > span { color: #465351; font-size: 10px; line-height: 1.5; }
+.enterprise-task-meta small { display: block; margin-bottom: 3px; color: #87908e; font-size: 8px; font-weight: 700; text-transform: uppercase; }
+.enterprise-task-card footer { display: flex; justify-content: space-between; align-items: center; gap: 16px; padding-top: 14px; border-top: 1px solid #e8ecea; }
+.enterprise-task-card footer > span { color: #737d7a; font-size: 10px; }
+.enterprise-reply { display: flex; gap: 10px; margin: 13px 0; padding: 11px; background: #eef3ed; color: #52625a; }
+.enterprise-reply svg { flex: 0 0 17px; width: 17px; }
+.enterprise-reply span { display: grid; gap: 4px; font-size: 11px; line-height: 1.5; }
+.enterprise-reply strong { font-size: 9px; text-transform: uppercase; }
+.enterprise-mission-heading { margin-top: 32px; }
+.enterprise-mission-card { margin-top: 10px; }
+.enterprise-mission-card header { grid-template-columns: 45px 1fr; }
+.enterprise-privacy-note { border-top: 3px solid #819381; }
+.enterprise-empty { padding: 30px; border: 1px solid #d9e3d5; background: #f9fbf7; }
+.enterprise-empty p { color: #748078; font-size: 12px; }
+.enterprise-completed { margin-top: 18px; padding: 18px; border: 1px solid #dbe3df; background: white; }
+.enterprise-completed > button { display: flex; width: 100%; gap: 10px; align-items: center; margin-top: 12px; padding: 11px 0; border: 0; border-top: 1px solid #e7ebe9; background: none; color: #4c5c57; text-align: left; cursor: pointer; }
+.enterprise-completed svg { width: 17px; color: #668462; }
+.enterprise-completed span { display: grid; gap: 4px; }
+.enterprise-completed strong { font-size: 11px; }
+.enterprise-completed small { color: #7e8885; font-size: 9px; }
+
+.enterprise-chat-rail { background: #eef2ed; border-top-color: #7f917b; }
+.enterprise-rail-head { display: flex; justify-content: space-between; align-items: center; color: #68766e; font-size: 9px; }
+.enterprise-chat-rail > h2 { margin: 10px 0 7px; color: #334039; font-family: Georgia, "Times New Roman", serif; font-size: 25px; font-weight: 400; }
+.enterprise-chat-rail > p { margin: 0 0 18px; color: #69756e; font-size: 11px; line-height: 1.65; }
+.enterprise-rail-tasks { border-top: 1px solid #cfd8d0; }
+.enterprise-rail-tasks button { position: relative; display: grid; width: 100%; gap: 5px; padding: 16px 27px 16px 0; border: 0; border-bottom: 1px solid #cfd8d0; background: transparent; color: #43534a; text-align: left; cursor: pointer; }
+.enterprise-rail-tasks button:hover { background: #e5ece4; }
+.enterprise-rail-tasks svg { position: absolute; right: 0; top: 21px; width: 15px; }
+.enterprise-task-kind { color: #7d877f; font-size: 8px; font-weight: 700; text-transform: uppercase; }
+.enterprise-rail-tasks strong { font-size: 12px; line-height: 1.45; }
+.enterprise-rail-tasks small { color: #748078; font-size: 9px; }
+.enterprise-rail-boundary { display: flex; gap: 10px; margin-top: 19px; padding-top: 17px; border-top: 1px solid #cfd8d0; color: #68766e; }
+.enterprise-rail-boundary svg { flex: 0 0 15px; width: 15px; }
+.enterprise-rail-boundary p { margin: 0; font-size: 9px; line-height: 1.7; }
+.enterprise-rail-boundary strong { display: block; margin-bottom: 4px; color: #4f5f56; font-size: 10px; }
+.enterprise-rail-approved { margin-top: 15px; padding: 12px; background: #e2eadd; color: #4f6550; }
+.enterprise-rail-approved span { display: flex; align-items: center; gap: 7px; font-size: 9px; font-weight: 700; }
+.enterprise-rail-approved svg { width: 14px; }
+.enterprise-rail-approved p { margin: 6px 0 0; font-size: 9px; }
+
+.enterprise-task-dialog { color: #43504b; }
+.enterprise-dialog-status { display: flex; align-items: center; justify-content: space-between; gap: 15px; }
+.enterprise-dialog-status small { color: #7b8581; font-size: 10px; }
+.enterprise-task-dialog > p { color: #65716c; font-size: 13px; line-height: 1.7; }
+.enterprise-policy-copy { margin: 19px 0; padding: 16px; border-left: 3px solid #708476; background: #f1f5f0; }
+.enterprise-policy-copy span { color: #6b7872; font-size: 9px; font-weight: 700; text-transform: uppercase; }
+.enterprise-policy-copy p { margin: 8px 0 0; color: #46564e; font-size: 12px; line-height: 1.7; }
+.enterprise-checklist > strong { display: block; margin-bottom: 10px; font-size: 11px; }
+.enterprise-checklist > div { display: flex; gap: 10px; padding: 9px 0; border-top: 1px solid #e1e6e3; font-size: 11px; line-height: 1.5; }
+.enterprise-checklist svg { flex: 0 0 16px; width: 16px; color: #668462; }
+.enterprise-dialog-actions { display: flex; flex-wrap: wrap; gap: 9px; margin-top: 22px; }
+.enterprise-dialog-actions .btn { display: inline-flex; align-items: center; gap: 7px; }
+.enterprise-dialog-actions svg { width: 15px; }
+.enterprise-status-disclosure { display: flex; align-items: flex-start; gap: 7px; margin-top: 15px !important; color: #758078 !important; font-size: 9px !important; }
+.enterprise-status-disclosure svg { flex: 0 0 13px; width: 13px; }
+.enterprise-clarification-form, .enterprise-reply-form { display: grid; gap: 11px; margin-top: 18px; padding: 16px; background: #f6f8f5; }
+.enterprise-clarification-form label, .enterprise-reply-form label { color: #4b5b53; font-size: 11px; font-weight: 700; }
+.enterprise-clarification-form textarea, .enterprise-reply-form textarea, .enterprise-reply-form input, .enterprise-reply-form select { width: 100%; border: 1px solid #ccd7cf; border-radius: 3px; padding: 10px; background: white; color: #394940; font: inherit; font-size: 12px; line-height: 1.6; }
+.enterprise-clarification-form small, .enterprise-reply-form small { color: #78827d; font-size: 9px; line-height: 1.6; }
+.enterprise-dialog-question { margin-top: 17px; padding: 14px; border: 1px solid #dfd7ce; background: #faf7f2; }
+.enterprise-dialog-question strong { display: block; font-size: 10px; }
+.enterprise-dialog-question p { margin: 6px 0 11px; font-size: 11px; line-height: 1.6; }
+.enterprise-dialog-question small { color: #7f7770; font-size: 9px; }
+.enterprise-reply-form blockquote { margin: 0; padding: 12px; border-left: 3px solid #a8b6aa; background: white; color: #5c6962; font-size: 11px; line-height: 1.6; }
+
+.enterprise-hr-kpis { display: grid; grid-template-columns: repeat(4, 1fr); margin-bottom: 22px; border: 1px solid var(--line); background: white; }
+.enterprise-hr-kpis > div { min-height: 105px; padding: 20px; border-right: 1px solid var(--line); }
+.enterprise-hr-kpis > div:last-child { border: 0; }
+.enterprise-hr-kpis span, .enterprise-hr-kpis strong, .enterprise-hr-kpis small { display: block; }
+.enterprise-hr-kpis span { color: var(--muted); font-size: 9px; font-weight: 700; text-transform: uppercase; }
+.enterprise-hr-kpis strong { margin: 8px 0 5px; color: var(--ink); font-size: 24px; }
+.enterprise-hr-kpis small { color: var(--muted); font-size: 9px; line-height: 1.5; }
+.enterprise-assign-panel { display: grid; grid-template-columns: minmax(230px, .7fr) minmax(0, 1.6fr); gap: 30px; margin-bottom: 24px; padding: 25px; border-top: 3px solid #738371; background: #edf2ea; }
+.enterprise-assign-panel[hidden] { display: none; }
+.enterprise-assign-panel h2 { margin: 8px 0; font-size: 20px; }
+.enterprise-assign-panel > div p { color: #6d786f; font-size: 11px; line-height: 1.7; }
+.enterprise-assign-panel form { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+.enterprise-assign-panel label { display: grid; gap: 7px; color: #4e5d54; font-size: 9px; font-weight: 700; text-transform: uppercase; }
+.enterprise-assign-panel input, .enterprise-assign-panel select, .enterprise-assign-panel textarea { width: 100%; min-width: 0; border: 1px solid #cad6ca; border-radius: 3px; padding: 10px; background: white; color: #3f4d44; font: inherit; font-size: 11px; text-transform: none; }
+.enterprise-field-wide, .enterprise-form-boundary, .enterprise-form-actions { grid-column: 1 / -1; }
+.enterprise-form-boundary { display: flex; gap: 10px; align-items: flex-start; color: #657269; font-size: 9px; line-height: 1.6; }
+.enterprise-form-boundary svg { flex: 0 0 15px; width: 15px; }
+.enterprise-form-boundary strong { display: block; color: #4f5e55; }
+.enterprise-form-actions { display: flex; justify-content: flex-end; gap: 9px; }
+.enterprise-hr-grid { display: grid; grid-template-columns: minmax(0, 2fr) minmax(250px, .7fr); gap: 22px; align-items: start; }
+.enterprise-action-register, .enterprise-hr-activity, .enterprise-shared-feedback { border: 1px solid var(--line); background: white; }
+.enterprise-action-register > .section-head { padding: 20px; }
+.enterprise-action-register > article { display: grid; grid-template-columns: 96px minmax(0, 1fr) 120px 90px 36px; gap: 14px; align-items: start; padding: 18px 20px; border-top: 1px solid var(--line); }
+.enterprise-action-register article > div > strong { display: block; color: var(--ink); font-size: 12px; }
+.enterprise-action-register article > div > p { margin: 5px 0 8px; color: var(--muted); font-size: 10px; line-height: 1.5; }
+.enterprise-action-register article > div > small { color: #7d8783; font-size: 8px; line-height: 1.5; }
+.enterprise-action-register article > div:nth-of-type(n+2) strong { margin-top: 5px; font-size: 10px; }
+.enterprise-hr-question { display: grid; gap: 6px; margin-top: 10px; padding: 10px; background: #f7eee9; color: #6e4c43; }
+.enterprise-hr-question b { font-size: 8px; text-transform: uppercase; }
+.enterprise-hr-question span, .enterprise-hr-question em { font-size: 9px; font-style: normal; line-height: 1.5; }
+.enterprise-hr-question .btn { width: max-content; margin-top: 4px; }
+.enterprise-hr-activity { padding: 20px; }
+.enterprise-hr-activity h2 { margin: 8px 0 18px; font-size: 18px; }
+.enterprise-hr-activity > div { display: flex; gap: 11px; padding: 11px 0; border-top: 1px solid var(--line); }
+.enterprise-hr-activity > div i { flex: 0 0 7px; width: 7px; height: 7px; margin-top: 5px; border-radius: 50%; background: #6e8a68; }
+.enterprise-hr-activity > div span { display: grid; gap: 5px; }
+.enterprise-hr-activity > div strong { font-size: 10px; line-height: 1.5; }
+.enterprise-hr-activity > div small { color: var(--muted); font-size: 8px; }
+.enterprise-hr-activity > p { display: flex; gap: 8px; margin: 18px 0 0; padding: 13px; background: #edf3eb; color: #60705f; font-size: 9px; line-height: 1.6; }
+.enterprise-hr-activity > p svg { flex: 0 0 15px; width: 15px; }
+.enterprise-shared-feedback { margin-top: 22px; padding: 20px; }
+.enterprise-shared-feedback article { padding: 15px 0; border-top: 1px solid var(--line); }
+.enterprise-shared-feedback article > span { color: #5e775e; font-size: 8px; font-weight: 700; }
+.enterprise-shared-feedback article p { color: var(--ink); font-size: 11px; line-height: 1.6; }
+.enterprise-shared-feedback article small { color: var(--muted); font-size: 8px; }
+
+@media (max-width: 980px) {
+  .enterprise-employee-grid, .enterprise-hr-grid { grid-template-columns: 1fr; }
+  .enterprise-hr-kpis { grid-template-columns: 1fr 1fr; }
+  .enterprise-hr-kpis > div:nth-child(2) { border-right: 0; }
+  .enterprise-hr-kpis > div:nth-child(-n+2) { border-bottom: 1px solid var(--line); }
+  .enterprise-assign-panel { grid-template-columns: 1fr; }
+  .enterprise-action-register { overflow-x: auto; }
+  .enterprise-action-register > article { min-width: 800px; }
+}
+@media (max-width: 640px) {
+  .enterprise-task-meta { grid-template-columns: 1fr 1fr; }
+  .enterprise-task-meta > span:last-child { grid-column: 1 / -1; }
+  .enterprise-task-card footer, .enterprise-dialog-status { align-items: flex-start; flex-direction: column; }
+  .enterprise-task-card footer .btn { width: 100%; }
+  .enterprise-hr-kpis { grid-template-columns: 1fr; }
+  .enterprise-hr-kpis > div { border-right: 0; border-bottom: 1px solid var(--line); }
+  .enterprise-assign-panel form { grid-template-columns: 1fr; }
+  .enterprise-field-wide, .enterprise-form-boundary, .enterprise-form-actions { grid-column: auto; }
+  .enterprise-dialog-actions { align-items: stretch; flex-direction: column; }
+}

@@ -1,0 +1,13 @@
+var R=require("../../../../../chunks/[turbopack]_runtime.js")("server/app/api/conversations/[assignmentId]/approve/route.js")
+R.c("server/chunks/node_modules_@vercel_oidc_dist_1li21zc._.js")
+R.c("server/chunks/_0hti5im._.js")
+R.c("server/chunks/node_modules_next_1zdbrne._.js")
+R.c("server/chunks/[root-of-the-server]__0jimi_9._.js")
+R.c("server/chunks/node_modules_zod_v4_1-unytk._.js")
+R.c("server/chunks/_0rz-b-_._.js")
+R.c("server/chunks/_17qm_ju._.js")
+R.c("server/chunks/[root-of-the-server]__0n-i-z7._.js")
+R.c("server/chunks/node_modules_next_dist_11w3z5e._.js")
+R.c("server/chunks/1oeh_server_app_api_conversations_[assignmentId]_approve_route_actions_1cv_oiy.js")
+R.m(89934)
+module.exports=R.m(89934).exports

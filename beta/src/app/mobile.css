@@ -1,0 +1,46 @@
+/* Keep the same workspace usable in a narrow browser and in the native shell. */
+@media (min-width: 761px) and (max-width: 900px) {
+  .mobile-workspace-nav { display: none; }
+}
+
+@media (max-width: 760px) {
+  .app-main { padding-bottom: calc(82px + env(safe-area-inset-bottom, 0px)); }
+  .mobile-bar { position: relative; z-index: 50; }
+  .mobile-profile-menu summary { min-width: 44px; min-height: 44px; justify-content: center; }
+  .mobile-profile-menu .avatar { color: #17352f; background: #e2f3ee; }
+  .mobile-profile-menu nav { right: 0; top: calc(100% + 8px); }
+  .mobile-workspace-nav {
+    position: fixed;
+    inset: auto 0 0;
+    z-index: 35;
+    justify-content: space-around;
+    gap: 0;
+    padding: 4px 8px max(8px, env(safe-area-inset-bottom, 0px));
+    border-top: 1px solid var(--line);
+    border-bottom: 0;
+    background: #fff;
+    box-shadow: 0 -8px 28px rgba(23, 32, 42, .07);
+  }
+  .mobile-workspace-nav a {
+    flex: 1;
+    min-width: 64px;
+    min-height: 58px;
+    padding: 6px 5px 4px;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3px;
+    border: 0;
+    border-radius: 8px;
+    text-align: center;
+  }
+  .mobile-workspace-nav a[aria-current="page"] { background: var(--mint); }
+  .mobile-workspace-nav a > span { font-size: 10px; }
+  .fielded-chat-launcher { bottom: calc(85px + env(safe-area-inset-bottom, 0px)); }
+  .fielded-chat-dialog {
+    margin-bottom: calc(76px + env(safe-area-inset-bottom, 0px));
+    max-height: calc(100dvh - 100px - env(safe-area-inset-bottom, 0px));
+  }
+  .conversation-page { height: calc(100dvh - 275px); min-height: 360px; }
+  .auth-shell { min-height: 100dvh; padding: 26px 18px 32px; }
+  .auth-card { padding: 24px 20px; }
+}

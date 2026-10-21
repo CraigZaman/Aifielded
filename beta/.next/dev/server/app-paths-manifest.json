@@ -1,0 +1,20 @@
+{
+  "/(auth)/sign-in/page": "app/(auth)/sign-in/page.js",
+  "/api/ai/chat/route": "app/api/ai/chat/route.js",
+  "/api/communications/check/route": "app/api/communications/check/route.js",
+  "/api/communications/route": "app/api/communications/route.js",
+  "/api/devices/register/route": "app/api/devices/register/route.js",
+  "/api/devices/test/route": "app/api/devices/test/route.js",
+  "/api/health/route": "app/api/health/route.js",
+  "/api/local/notifications/dispatch/route": "app/api/local/notifications/dispatch/route.js",
+  "/api/uploads/route": "app/api/uploads/route.js",
+  "/app/communications/page": "app/app/communications/page.js",
+  "/app/company/page": "app/app/company/page.js",
+  "/app/concerns/page": "app/app/concerns/page.js",
+  "/app/missions/[id]/page": "app/app/missions/[id]/page.js",
+  "/app/missions/page": "app/app/missions/page.js",
+  "/app/my-day/page": "app/app/my-day/page.js",
+  "/app/page": "app/app/page.js",
+  "/app/suggestions/page": "app/app/suggestions/page.js",
+  "/ops/bootstrap/page": "app/ops/bootstrap/page.js"
+}

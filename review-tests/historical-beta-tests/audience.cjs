@@ -1,0 +1,16 @@
+const assert=require('node:assert/strict'),path=require('node:path');
+const {previewAudience,audienceSchema}=require('./support/load-audience.cjs')(path.resolve(process.argv[2]||'.'));
+const members=[{id:'a',role:'owner',department:'executive'},{id:'b',role:'participant',department:'sales'},{id:'c',role:'participant',department:'sales'},{id:'d',role:'consultant',department:'sales'}];
+const departments=[{key:'sales',headUserId:'b'},{key:'executive',headUserId:null}];
+const ids=(mode,departmentKeys=[],individualIds=[])=>Array.from(previewAudience(members,departments,{mode,departmentKeys,individualIds}),m=>m.id);
+assert.deepEqual(ids('organisation'),['a','b','c']);
+assert.deepEqual(ids('departments',['sales']),['b','c']);
+assert.deepEqual(ids('department_heads'),['b']);
+assert.deepEqual(ids('individuals',[],['d']),['d']);
+assert.deepEqual(ids('individuals',[],['missing']),[]);
+assert.deepEqual(ids('departments'),[]);
+assert.deepEqual(ids('department_heads',['executive']),[]);
+assert.equal(audienceSchema.safeParse({mode:'everyone_in_another_company'}).success,false);
+assert.equal(audienceSchema.safeParse({mode:'departments',departmentKeys:Array(51).fill('sales')}).success,false);
+assert.equal(audienceSchema.parse({}).mode,'individuals');
+console.log('PASS: all four audience previews, consultant exclusion from bulk groups, explicit external recipients, unappointed heads and invalid audience bounds. Database resolution is tested separately.');

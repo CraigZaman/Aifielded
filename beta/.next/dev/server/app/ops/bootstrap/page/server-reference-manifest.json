@@ -1,0 +1,16 @@
+{
+  "node": {
+    "4036196bef0a2736d79bfc87776cac10c10fa2900a": {
+      "workers": {
+        "app/ops/bootstrap/page": {
+          "moduleId": "[project]/.next-internal/server/app/ops/bootstrap/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/ops/bootstrap/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "bootstrapPlatformAdmin",
+      "filename": "src/app/ops/bootstrap/actions.ts"
+    }
+  },
+  "edge": {}
+}

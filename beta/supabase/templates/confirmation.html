@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Confirm your Fielded email</title></head>
+<body style="margin:0;background:#f3f6f4;font-family:Arial,sans-serif;color:#17201d">
+  <div style="max-width:560px;margin:32px auto;padding:32px;background:#ffffff;border:1px solid #dce2df">
+    <p style="margin:0 0 28px;font-size:24px;font-weight:bold">Fielded.ai</p>
+    <h1 style="margin:0 0 16px;font-size:26px">Confirm your email</h1>
+    <p style="color:#56615c;line-height:1.6">Welcome to Fielded. Confirm your email address to continue setting up your account or joining your team. If you signed up in the mobile app, enter this code there:</p>
+    <p style="margin:20px 0;font-size:30px;font-weight:bold;letter-spacing:6px;color:#0f5c49">{{ .Token }}</p>
+    <p style="color:#56615c;line-height:1.6">If you signed up on the website, use the link below instead.</p>
+    <p style="margin:28px 0"><a href="{{ .SiteURL }}/auth/confirm?token_hash={{ .TokenHash }}&amp;type=email" style="display:inline-block;padding:14px 22px;background:#0f5c49;border-radius:6px;color:#ffffff;text-decoration:none;font-weight:bold">Confirm email &amp; continue</a></p>
+    <p style="color:#68736e;font-size:13px;line-height:1.6">This link is for your account only and expires automatically. If you did not request a Fielded account, ignore this email.</p>
+    <p style="color:#68736e;font-size:13px">Need help? <a href="mailto:tech@fielded.ai" style="color:#0f5c49">Contact Fielded</a></p>
+  </div>
+</body>
+</html>

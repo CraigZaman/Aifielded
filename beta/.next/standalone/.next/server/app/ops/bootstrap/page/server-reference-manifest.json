@@ -1,0 +1,16 @@
+{
+  "node": {
+    "4073590ec827103cc529581f3f799577439da9926f": {
+      "workers": {
+        "app/ops/bootstrap/page": {
+          "moduleId": 31667,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "bootstrapPlatformAdmin",
+      "filename": "src/app/ops/bootstrap/actions.ts"
+    }
+  },
+  "edge": {}
+}

@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "functions": {
+    "/_middleware": {
+      "runtime": "nodejs",
+      "matchers": [
+        {
+          "regexp": "^(?:\\/(_next\\/data\\/[^/]{1,}))?(?:\\/((?!_next\\/static|_next\\/image|favicon.ico|.*\\.(?:svg|png|jpg|jpeg|gif|webp)$).*))(\\.json|\\.rsc|\\.segments\\/.+\\.segment\\.rsc)?[\\/#\\?]?$",
+          "originalSource": "/((?!_next/static|_next/image|favicon.ico|.*\\.(?:svg|png|jpg|jpeg|gif|webp)$).*)"
+        }
+      ]
+    },
+    "/api/ai/ask": {
+      "maxDuration": 60
+    },
+    "/api/ai/chat": {
+      "maxDuration": 60
+    },
+    "/api/ai/check": {
+      "maxDuration": 60
+    },
+    "/api/communications/check": {
+      "maxDuration": 120
+    },
+    "/api/communications/draft": {
+      "maxDuration": 120
+    },
+    "/api/company/profile-draft": {
+      "maxDuration": 60
+    },
+    "/api/company/structure-draft": {
+      "maxDuration": 60
+    },
+    "/api/context-extract": {
+      "maxDuration": 60
+    },
+    "/api/conversations/[assignmentId]/approve": {
+      "maxDuration": 180
+    },
+    "/api/conversations/[assignmentId]/complete": {
+      "maxDuration": 180
+    },
+    "/api/cron/mission-analysis": {
+      "maxDuration": 300
+    },
+    "/api/dialogue": {
+      "maxDuration": 60
+    },
+    "/api/missions/[id]/synthesise": {
+      "maxDuration": 120
+    },
+    "/api/uploads": {
+      "maxDuration": 60
+    },
+    "/app/conversations/[assignmentId]": {
+      "maxDuration": 180
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "version": 2,
+  "outputDirectory": ".",
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "rewrites": [
+    { "source": "/demos", "destination": "/" },
+    { "source": "/individual", "destination": "/" },
+    { "source": "/sme", "destination": "/" },
+    { "source": "/organisation", "destination": "/" },
+    { "source": "/organisation/:path*", "destination": "/" },
+    { "source": "/third-party", "destination": "/" },
+    { "source": "/third-party/:path*", "destination": "/" },
+    { "source": "/participant", "destination": "/" },
+    {
+      "source": "/m/:slug",
+      "destination": "/"
+    },
+    {
+      "source": "/participant/:slug",
+      "destination": "/"
+    },
+    {
+      "source": "/admin",
+      "destination": "/"
+    },
+    {
+      "source": "/consulting",
+      "destination": "/"
+    },
+    {
+      "source": "/consulting/:path*",
+      "destination": "/"
+    },
+    {
+      "source": "/hr",
+      "destination": "/"
+    },
+    {
+      "source": "/hr/:path*",
+      "destination": "/"
+    }
+  ]
+}

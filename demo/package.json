@@ -1,0 +1,1 @@
+{"name":"fielded-private-demo","private":true,"type":"module","scripts":{"build":"node -e \"require('node:fs').mkdirSync('public',{recursive:true})\""}}

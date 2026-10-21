@@ -1,0 +1,514 @@
+/* [project]/src/app/company.css [app-client] (css) */
+.workspace-mode {
+  background: #ffffff14;
+  border-radius: 6px;
+  gap: 3px;
+  margin: 12px 0 20px;
+  padding: 4px;
+  display: flex;
+}
+
+.workspace-mode a {
+  text-align: center;
+  color: inherit;
+  border-radius: 4px;
+  flex: 1;
+  padding: 8px 6px;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.workspace-mode a[aria-current] {
+  color: #18332f;
+  background: #fff;
+  font-weight: 600;
+}
+
+.mobile-workspace-mode {
+  display: none;
+}
+
+@media (max-width: 760px) {
+  .workspace-mode.mobile-workspace-mode {
+    color: #29443c;
+    background: #e4ece8;
+    margin: 8px 16px;
+    display: flex;
+  }
+}
+
+.workspace-refresh {
+  justify-content: flex-end;
+  padding: 6px 18px 0;
+  display: flex;
+}
+
+.profile-menu {
+  z-index: 30;
+  position: relative;
+}
+
+.profile-menu summary {
+  cursor: pointer;
+  align-items: center;
+  gap: 10px;
+  list-style: none;
+  display: flex;
+}
+
+.profile-menu summary::-webkit-details-marker {
+  display: none;
+}
+
+.profile-menu summary strong, .profile-menu summary small {
+  display: block;
+}
+
+.profile-menu summary small {
+  color: var(--muted);
+  margin-top: 3px;
+  font-size: 11px;
+}
+
+.profile-menu nav {
+  border: 1px solid var(--line, #dbe2df);
+  background: #fff;
+  border-radius: 6px;
+  min-width: 220px;
+  padding: 6px;
+  position: absolute;
+  top: calc(100% + 12px);
+  right: 0;
+  box-shadow: 0 8px 30px #13261c18;
+}
+
+.profile-menu nav a, .profile-menu nav button {
+  color: var(--text, #172a24);
+  text-align: left;
+  background: none;
+  border: 0;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  padding: 10px 12px;
+  font-size: 13px;
+  text-decoration: none;
+  display: flex;
+}
+
+.profile-menu nav a:hover, .profile-menu nav button:hover {
+  background: #edf4f1;
+}
+
+.section-tabs {
+  border-bottom: 1px solid var(--line, #dbe2df);
+  gap: 6px;
+  max-width: 100%;
+  margin: 0 0 24px;
+  display: flex;
+  overflow-x: auto;
+}
+
+.section-tabs a {
+  white-space: nowrap;
+  color: var(--muted);
+  border-bottom: 2px solid #0000;
+  align-items: center;
+  gap: 7px;
+  padding: 12px 14px;
+  font-size: 13px;
+  text-decoration: none;
+  display: flex;
+}
+
+.section-tabs a.active {
+  color: #0d756e;
+  border-bottom-color: #0d756e;
+  font-weight: 600;
+}
+
+.work-section-tabs {
+  margin: 8px 28px 0;
+}
+
+.company-section {
+  border-bottom: 1px solid var(--line, #dbe2df);
+  margin-bottom: 24px;
+  padding: 6px 0 28px;
+}
+
+.company-section h2 {
+  margin: 10px 0 20px;
+  font-size: 18px;
+}
+
+.company-field-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+  display: grid;
+}
+
+.company-field-wide {
+  grid-column: 1 / -1;
+}
+
+.company-profile-form {
+  max-width: 1040px;
+}
+
+.company-field-grid textarea, .company-field-grid input {
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 0;
+}
+
+.company-access-editor {
+  max-width: 600px;
+  margin-top: 24px;
+}
+
+.company-document {
+  border-bottom: 1px solid var(--line, #dbe2df);
+  padding: 16px 0;
+}
+
+.company-document summary {
+  cursor: pointer;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  display: flex;
+}
+
+.company-document summary strong {
+  overflow-wrap: anywhere;
+  flex: 1;
+  min-width: 160px;
+}
+
+.company-document-text {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  max-height: 500px;
+  padding: 18px 0;
+  line-height: 1.6;
+  overflow: auto;
+}
+
+.company-document p {
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.company-checkbox {
+  align-items: center;
+  gap: 10px;
+  display: flex !important;
+}
+
+.company-checkbox input {
+  flex-shrink: 0;
+  height: 18px;
+  width: 18px !important;
+}
+
+.profile-employment {
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+  margin: 0 0 24px;
+  display: flex;
+}
+
+.company-review {
+  padding-top: 14px;
+}
+
+p.role-note {
+  display: block;
+}
+
+.company-logo {
+  object-fit: contain;
+  object-position: left center;
+  max-width: 100%;
+  margin-bottom: 12px;
+  display: block;
+}
+
+@media (max-width: 700px) {
+  .company-field-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .work-section-tabs {
+    margin: 0 14px;
+  }
+
+  .company-page .page-title h1 {
+    overflow-wrap: anywhere;
+    font-size: 25px;
+  }
+
+  .profile-menu nav {
+    max-width: calc(100vw - 32px);
+  }
+}
+
+.fielded-chat-launcher {
+  background: var(--teal, #107c75);
+  color: #fff;
+  z-index: 40;
+  cursor: pointer;
+  border: 0;
+  border-radius: 50%;
+  place-items: center;
+  width: 54px;
+  height: 54px;
+  display: grid;
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  box-shadow: 0 4px 16px #0002;
+}
+
+.chat-unread {
+  color: #fff;
+  background: #b32d39;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  place-items: center;
+  min-width: 21px;
+  height: 21px;
+  padding: 0 4px;
+  font-size: 11px;
+  display: grid;
+  position: absolute;
+  top: -3px;
+  right: -3px;
+}
+
+.fielded-chat-caption {
+  color: var(--ink, #1c2730);
+  background: #fff;
+  border-radius: 3px;
+  padding: 2px 6px;
+  font-size: 11px;
+  font-weight: 600;
+  position: absolute;
+  bottom: calc(100% + 5px);
+}
+
+.company-section dd {
+  overflow-wrap: anywhere;
+  margin: 6px 0 18px;
+}
+
+.company-section dt {
+  text-transform: capitalize;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.fielded-chat-dialog {
+  width: min(470px, 100vw - 24px);
+  height: min(760px, 100dvh - 32px);
+  max-height: calc(100dvh - 32px);
+  color: var(--ink, #1c2730);
+  border: 1px solid #d9e3e0;
+  border-radius: 8px;
+  margin: auto 18px 16px auto;
+  padding: 0;
+  box-shadow: 0 20px 60px #0003;
+}
+
+.fielded-chat-dialog[open] {
+  flex-direction: column;
+  display: flex;
+}
+
+.fielded-chat-dialog::backdrop {
+  background: #15252140;
+}
+
+.fielded-chat-dialog > header {
+  background: #fff;
+  border-bottom: 1px solid #d9e3e0;
+  flex-shrink: 0;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 20px;
+  display: flex;
+}
+
+.fielded-chat-dialog small {
+  color: var(--muted, #68747b);
+  align-items: center;
+  gap: 5px;
+  margin-top: 4px;
+  font-size: 11px;
+  display: flex;
+}
+
+.fielded-chat-dialog > header button, .context-tools button {
+  width: 34px;
+  height: 34px;
+  color: inherit;
+  cursor: pointer;
+  background: #fff;
+  border: 1px solid #d9e3e0;
+  border-radius: 5px;
+  flex-shrink: 0;
+  place-items: center;
+  display: grid;
+}
+
+.open-dialogue-history {
+  background: #f6f8f7;
+  flex: 1;
+  min-height: 80px;
+  padding: 16px;
+  overflow-y: auto;
+}
+
+.open-message {
+  background: #fff;
+  border: 1px solid #e1e7e4;
+  border-radius: 6px;
+  max-width: 95%;
+  margin-bottom: 12px;
+  padding: 12px;
+}
+
+.open-message.mine {
+  background: #eaf3ef;
+  margin-left: auto;
+}
+
+.open-message p {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  margin: 6px 0;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.open-dialogue-compose {
+  background: #fff;
+  border-top: 1px solid #d9e3e0;
+  flex-shrink: 0;
+  max-height: 55%;
+  padding: 12px 16px;
+  overflow-y: auto;
+}
+
+.open-dialogue-compose textarea {
+  box-sizing: border-box;
+  resize: vertical;
+  width: 100%;
+  font: inherit;
+  border: 1px solid #c9d4d0;
+  border-radius: 5px;
+  min-height: 72px;
+  max-height: 160px;
+  padding: 10px;
+  font-size: 13px;
+  display: block;
+}
+
+.open-dialogue-toolbar {
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 8px;
+  margin-top: 8px;
+  display: flex;
+}
+
+.context-input {
+  min-width: 0;
+}
+
+.context-tools {
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 5px;
+  display: flex;
+}
+
+.context-tools span {
+  font-size: 11px;
+}
+
+.context-tools button:disabled {
+  opacity: .5;
+  cursor: default;
+}
+
+.open-dialogue-compose footer {
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 12px;
+  font-size: 11px;
+  display: flex;
+}
+
+.open-dialogue-compose .form-message {
+  margin: 8px 0;
+  font-size: 12px;
+}
+
+@media (max-width: 700px) {
+  .fielded-chat-launcher {
+    bottom: 18px;
+    right: 16px;
+  }
+
+  .fielded-chat-dialog {
+    max-height: calc(100dvh - 24px);
+    margin: auto 12px 12px;
+  }
+
+  .workspace-mode {
+    display: flex;
+  }
+
+  .open-dialogue-compose {
+    padding: 10px;
+  }
+
+  .context-tools button {
+    width: 32px;
+    height: 32px;
+  }
+}
+
+.work-actions {
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 18px;
+  padding: 10px 32px;
+  font-size: 12px;
+  display: flex;
+}
+
+.work-actions a {
+  color: var(--teal, #107c75);
+  align-items: center;
+  gap: 6px;
+  display: flex;
+}
+
+.company-page a {
+  overflow-wrap: anywhere;
+}
+
+.company-page .company-section .company-section {
+  box-shadow: none;
+  background: none;
+  border-radius: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/*# sourceMappingURL=src_app_company_css_1igg3k2._.single.css.map*/

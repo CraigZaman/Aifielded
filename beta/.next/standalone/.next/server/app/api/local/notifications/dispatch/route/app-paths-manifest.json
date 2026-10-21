@@ -1,0 +1,3 @@
+{
+  "/api/local/notifications/dispatch/route": "app/api/local/notifications/dispatch/route.js"
+}

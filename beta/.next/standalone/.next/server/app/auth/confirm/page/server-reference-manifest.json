@@ -1,0 +1,16 @@
+{
+  "node": {
+    "40fb37f3f8aeb739db032f83eb78f79ec0965f6cbc": {
+      "workers": {
+        "app/auth/confirm/page": {
+          "moduleId": 65767,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "$$RSC_SERVER_ACTION_0",
+      "filename": "src/app/auth/confirm/page.tsx"
+    }
+  },
+  "edge": {}
+}

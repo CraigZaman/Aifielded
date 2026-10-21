@@ -1,0 +1,32 @@
+import assert from 'node:assert/strict';
+import { readFileSync } from 'node:fs';
+import { createRequire } from 'node:module';
+import path from 'node:path';
+const root = path.resolve(process.argv[2] || '.');
+const require = createRequire(path.join(process.argv[3] || root, 'package.json'));
+const { PGlite } = require('@electric-sql/pglite');
+const db = new PGlite();
+await db.exec("create role anon; create role authenticated; create role service_role bypassrls; grant usage on schema public to anon, authenticated, service_role;");
+const sql = readFileSync(path.join(root, 'supabase/migrations/008_ai_budget.sql'), 'utf8');
+await db.exec(sql);
+await db.exec(sql);
+for (const role of ['anon', 'authenticated']) {
+  await db.exec(`set role ${role}`);
+  await assert.rejects(db.query("select reserve_ai_generation(1000)"), /permission denied/);
+  await assert.rejects(db.query("select * from ai_daily_budget"), /permission denied/);
+  await db.exec("reset role");
+}
+await db.exec("set role service_role");
+await assert.rejects(db.query("select reserve_ai_generation(100001)"), /allowed size/);
+await assert.rejects(db.query("select reserve_ai_generation(0)"), /allowed size/);
+const attempts = await Promise.allSettled(Array.from({ length: 100 }, () => db.query("select reserve_ai_generation(1000)")));
+const successes = attempts.filter(result => result.status === 'fulfilled').length;
+assert.equal(successes, 74);
+const budget = (await db.query("select reserved_micro_usd from ai_daily_budget")).rows[0];
+assert.equal(Number(budget.reserved_micro_usd), successes * 13488);
+assert.ok(Number(budget.reserved_micro_usd) <= 1000000);
+await db.exec("update ai_generations set status='failed'");
+await assert.rejects(db.query("select reserve_ai_generation(1000)"), /allowance reached/);
+assert.equal(Number((await db.query("select count(*) from ai_generations")).rows[0].count), successes);
+await db.close();
+console.log('PASS: private server-only ledger, atomic daily reservation ceiling, invalid sizes rejected, failures do not release allowance');

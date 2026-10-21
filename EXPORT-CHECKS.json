@@ -1,0 +1,7 @@
+{
+  "fileCount": 391,
+  "migrations": 38,
+  "allMigrations001Through038Present": true,
+  "credentialPatternFindings": [],
+  "note": "Best-effort pattern scan; not a security certification. Production data and environment values excluded."
+}

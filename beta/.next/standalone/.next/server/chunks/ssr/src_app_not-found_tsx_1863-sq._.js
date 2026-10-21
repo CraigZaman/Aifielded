@@ -1,0 +1,3 @@
+module.exports=[3363,a=>{"use strict";var b=a.i(7997),c=a.i(95936),d=a.i(84930),e=a.i(63648);a.s(["default",0,function(){return(0,b.jsx)(e.AuthCard,{title:"Page unavailable",description:"This link may no longer be available, or you may not have access to it.",footer:(0,b.jsx)(c.default,{href:"/",children:"Fielded home"}),children:(0,b.jsxs)(c.default,{className:"button button-primary button-full",href:"/app",children:[(0,b.jsx)(d.ArrowLeft,{size:16}),"Back to workspace"]})})}])},17537,function(a){a.n(a.i(3363))}];
+
+//# sourceMappingURL=src_app_not-found_tsx_1863-sq._.js.map

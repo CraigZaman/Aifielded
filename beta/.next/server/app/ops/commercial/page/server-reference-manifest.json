@@ -1,0 +1,27 @@
+{
+  "node": {
+    "608c04bc46963e4fc1195a394cd3479468ee6fdaf4": {
+      "workers": {
+        "app/ops/commercial/page": {
+          "moduleId": 2811,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "createCommercialCode",
+      "filename": "src/app/ops/commercial/actions.ts"
+    },
+    "4015ca3251059bb210423c792b462c1d8a73d1110b": {
+      "workers": {
+        "app/ops/commercial/page": {
+          "moduleId": 2811,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "revokeCommercialCode",
+      "filename": "src/app/ops/commercial/actions.ts"
+    }
+  },
+  "edge": {}
+}
