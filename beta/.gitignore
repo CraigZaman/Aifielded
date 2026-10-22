@@ -1,2 +1,5 @@
 .vercel
 .env*
+test-accounts.json
+firebase-service-account.json
+.supabase-local

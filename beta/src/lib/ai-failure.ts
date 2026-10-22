@@ -8,7 +8,7 @@ export function describeAIFailure(error: unknown) {
   for (let depth = 0; depth < 8 && current && typeof current === "object"; depth++) {
     const item = current as { code?: string; name?: string; cause?: unknown; finishReason?: string };
     if (["stop", "length", "content-filter", "error", "other", "unknown"].includes(item.finishReason || "")) finishReason = item.finishReason;
-    if (["AI_DAILY_LIMIT", "AI_BUDGET_UNAVAILABLE", "AI_BUDGET_CONFIGURATION", "GOOGLE_KEY_INVALID", "GOOGLE_QUOTA_EXCEEDED", "GOOGLE_ACCESS_DENIED", "GOOGLE_REQUEST_REJECTED"].includes(item.code || "")) {
+    if (["AI_DAILY_LIMIT", "AI_BUDGET_UNAVAILABLE", "AI_BUDGET_CONFIGURATION", "GOOGLE_KEY_INVALID", "GOOGLE_QUOTA_EXCEEDED", "GOOGLE_ACCESS_DENIED", "GOOGLE_REQUEST_REJECTED", "ANTHROPIC_KEY_INVALID", "ANTHROPIC_QUOTA_EXCEEDED", "ANTHROPIC_ACCESS_DENIED", "ANTHROPIC_REQUEST_REJECTED", "AI_REFUSED", "AI_UNSUPPORTED_MEDIA"].includes(item.code || "")) {
       code = item.code!;
       break;
     }
