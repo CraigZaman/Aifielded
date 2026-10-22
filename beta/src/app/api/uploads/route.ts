@@ -1,7 +1,7 @@
 import crypto from "node:crypto";
 import { NextResponse } from "next/server";
 import { createClient } from "@/lib/supabase/server";
-import { extractAttachment, hasAIProvider, MODEL_ID } from "@/lib/ai";
+import { activeModelId, extractAttachment, hasAIProvider } from "@/lib/ai";
 
 export const runtime = "nodejs";
 export const maxDuration = 60;
@@ -37,7 +37,7 @@ export async function POST(request: Request) {
   const uploaded = await supabase.storage.from("evidence").upload(path, bytes, { contentType: file.type || "application/octet-stream", upsert: false });
   if (uploaded.error) return NextResponse.json({ error: uploaded.error.message }, { status: 400 });
   // Raw uploads remain private; only reviewed conversation observations may be approved.
-  const saved = await supabase.from("source_records").insert({ organisation_id: assignment.organisation_id, mission_id: assignment.mission_id, user_id: auth.user.id, source_type: mediaType.startsWith("audio/") ? "audio" : mediaType.startsWith("image/") ? "image" : "file", title: file.name, storage_path: path, mime_type: mediaType, confidentiality: "PRIVATE", metadata: { size: file.size, transcript, assignment_id: assignment.id, requested_confidentiality: confidentiality, processing_status: "ready_for_review", model: mediaType.startsWith("text/") ? null : MODEL_ID } });
+  const saved = await supabase.from("source_records").insert({ organisation_id: assignment.organisation_id, mission_id: assignment.mission_id, user_id: auth.user.id, source_type: mediaType.startsWith("audio/") ? "audio" : mediaType.startsWith("image/") ? "image" : "file", title: file.name, storage_path: path, mime_type: mediaType, confidentiality: "PRIVATE", metadata: { size: file.size, transcript, assignment_id: assignment.id, requested_confidentiality: confidentiality, processing_status: "ready_for_review", model: mediaType.startsWith("text/") ? null : activeModelId() } });
   if (saved.error) {
     const cleanup = await supabase.storage.from("evidence").remove([path]);
     if (cleanup.error) console.error("Evidence upload cleanup failed", { code: cleanup.error.name });

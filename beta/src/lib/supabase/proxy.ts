@@ -9,7 +9,11 @@ export async function updateSession(request: NextRequest) {
 
   if (!url || !key) return response;
 
-  const bearer = request.headers.get("authorization")?.match(/^Bearer ([A-Za-z0-9._-]+)$/i)?.[1];
+  // Scheduled jobs send their own secret as a bearer token and check it in the
+  // route, so it must not be treated as a user session here.
+  const bearer = request.nextUrl.pathname.startsWith("/api/cron/")
+    ? undefined
+    : request.headers.get("authorization")?.match(/^Bearer ([A-Za-z0-9._-]+)$/i)?.[1];
   const supabase = bearer ? createSupabaseClient(url, key, {
     auth: { autoRefreshToken: false, persistSession: false, detectSessionInUrl: false },
     global: { headers: { Authorization: `Bearer ${bearer}` } },
